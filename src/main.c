@@ -7,7 +7,7 @@
 /**
  * A structure to store the tiles of the game area
  */
-struct gameArea {
+struct GameArea {
     size_t width;
     int *tiles;
 };
@@ -38,8 +38,8 @@ struct Target {
  * @param width The width of the game area
  * @return The newly created game area
  */
-struct gameArea *game_area_create(const size_t width) {
-    struct gameArea *new = malloc(sizeof(struct gameArea));
+struct GameArea *game_area_create(const size_t width) {
+    struct GameArea *new = malloc(sizeof(struct GameArea));
     new->width = width;
     new->tiles = calloc(width * width, sizeof(int));
     return new;
@@ -49,7 +49,7 @@ struct gameArea *game_area_create(const size_t width) {
  * Destroys the game area by freeing its memory
  * @param self The game area to destroy
  */
-void game_area_destroy(struct gameArea *self) {
+void game_area_destroy(struct GameArea *self) {
     free(self->tiles);
     free(self);
 }
@@ -61,7 +61,7 @@ void game_area_destroy(struct gameArea *self) {
  * @param y The y coordinate of the tile
  * @return A pointer to the tile
  */
-int *game_area_get_tile(const struct gameArea *self, const size_t x, const size_t y) {
+int *game_area_get_tile(const struct GameArea *self, const size_t x, const size_t y) {
     return &self->tiles[x + y * self->width];
 }
 
@@ -105,32 +105,39 @@ int main() {
     setbuf(stdout, NULL);
     char buf[BUFSIZE];
 
-    // get the size
-    fgets(buf, BUFSIZE, stdin);
-    int size = strtol(buf);
+    struct GameArea *gameArea;
 
-    // get the grid values
+    // Get the size of the game area
+    fgets(buf, BUFSIZE, stdin);
+    int size = (int) strtol(buf,(char**) NULL, 10);
+
+    // Create game area
+    gameArea = game_area_create(size);
+
+    // Get the tile scores
     for (int i = 0; i < size * size; ++i) {
         fgets(buf, BUFSIZE, stdin);
-        int value = strtol(buf);
-    // TODO: do something with value
+        int value = (int) strtol(buf,(char**) NULL, 10);
+        size_t x = i % size;
+        size_t y = (i - x) / size;
+        *game_area_get_tile(gameArea, x, y) = value;
     }
 
     // get the position
     fgets(buf, BUFSIZE, stdin);
-    int px = strtol(buf);
+    int px = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
-    int py = strtol(buf);
+    int py = (int) strtol(buf,(char**) NULL, 10);
 
     // get the objective
     fgets(buf, BUFSIZE, stdin);
-    int x = strtol(buf);
+    int x = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
-    int y = strtol(buf);
+    int y = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
-    int w = strtol(buf);
+    int w = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
-    int h = strtol(buf);
+    int h = (int) strtol(buf,(char**) NULL, 10);
     int vx = 0;
     int vy = 0;
 
