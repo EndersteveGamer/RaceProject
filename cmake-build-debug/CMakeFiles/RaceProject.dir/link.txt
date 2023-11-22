@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/RaceProject.dir/main.c.o -o RaceProject 
