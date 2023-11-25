@@ -76,7 +76,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/main.c">
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_area/game_area.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_area/game_area.h">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_instance/game_instance.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_instance/game_instance.h">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/main.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/player/player.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/player/player.h">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.h">
 			<Option target="RaceProject"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/CMakeLists.txt">

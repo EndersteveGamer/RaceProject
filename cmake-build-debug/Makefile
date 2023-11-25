@@ -129,29 +129,125 @@ RaceProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/build
 .PHONY : RaceProject/fast
 
-main.o: main.c.o
-.PHONY : main.o
+src/game_area/game_area.o: src/game_area/game_area.c.o
+.PHONY : src/game_area/game_area.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/main.c.o
-.PHONY : main.c.o
+src/game_area/game_area.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o
+.PHONY : src/game_area/game_area.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/game_area/game_area.i: src/game_area/game_area.c.i
+.PHONY : src/game_area/game_area.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/main.c.i
-.PHONY : main.c.i
+src/game_area/game_area.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_area/game_area.c.i
+.PHONY : src/game_area/game_area.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/game_area/game_area.s: src/game_area/game_area.c.s
+.PHONY : src/game_area/game_area.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/main.c.s
-.PHONY : main.c.s
+src/game_area/game_area.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_area/game_area.c.s
+.PHONY : src/game_area/game_area.c.s
+
+src/game_instance/game_instance.o: src/game_instance/game_instance.c.o
+.PHONY : src/game_instance/game_instance.o
+
+# target to build an object file
+src/game_instance/game_instance.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o
+.PHONY : src/game_instance/game_instance.c.o
+
+src/game_instance/game_instance.i: src/game_instance/game_instance.c.i
+.PHONY : src/game_instance/game_instance.i
+
+# target to preprocess a source file
+src/game_instance/game_instance.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.i
+.PHONY : src/game_instance/game_instance.c.i
+
+src/game_instance/game_instance.s: src/game_instance/game_instance.c.s
+.PHONY : src/game_instance/game_instance.s
+
+# target to generate assembly for a file
+src/game_instance/game_instance.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.s
+.PHONY : src/game_instance/game_instance.c.s
+
+src/main.o: src/main.c.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/player/player.o: src/player/player.c.o
+.PHONY : src/player/player.o
+
+# target to build an object file
+src/player/player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/player/player.c.o
+.PHONY : src/player/player.c.o
+
+src/player/player.i: src/player/player.c.i
+.PHONY : src/player/player.i
+
+# target to preprocess a source file
+src/player/player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/player/player.c.i
+.PHONY : src/player/player.c.i
+
+src/player/player.s: src/player/player.c.s
+.PHONY : src/player/player.s
+
+# target to generate assembly for a file
+src/player/player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/player/player.c.s
+.PHONY : src/player/player.c.s
+
+src/target/target.o: src/target/target.c.o
+.PHONY : src/target/target.o
+
+# target to build an object file
+src/target/target.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/target/target.c.o
+.PHONY : src/target/target.c.o
+
+src/target/target.i: src/target/target.c.i
+.PHONY : src/target/target.i
+
+# target to preprocess a source file
+src/target/target.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/target/target.c.i
+.PHONY : src/target/target.c.i
+
+src/target/target.s: src/target/target.c.s
+.PHONY : src/target/target.s
+
+# target to generate assembly for a file
+src/target/target.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/target/target.c.s
+.PHONY : src/target/target.c.s
 
 # Help Target
 help:
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RaceProject"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/game_area/game_area.o"
+	@echo "... src/game_area/game_area.i"
+	@echo "... src/game_area/game_area.s"
+	@echo "... src/game_instance/game_instance.o"
+	@echo "... src/game_instance/game_instance.i"
+	@echo "... src/game_instance/game_instance.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/player/player.o"
+	@echo "... src/player/player.i"
+	@echo "... src/player/player.s"
+	@echo "... src/target/target.o"
+	@echo "... src/target/target.i"
+	@echo "... src/target/target.s"
 .PHONY : help
 
 

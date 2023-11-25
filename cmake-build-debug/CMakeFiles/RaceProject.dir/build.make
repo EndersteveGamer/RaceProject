@@ -69,31 +69,95 @@ include CMakeFiles/RaceProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RaceProject.dir/flags.make
 
-CMakeFiles/RaceProject.dir/main.c.o: CMakeFiles/RaceProject.dir/flags.make
-CMakeFiles/RaceProject.dir/main.c.o: ../main.c
-CMakeFiles/RaceProject.dir/main.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RaceProject.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/main.c.o -MF CMakeFiles/RaceProject.dir/main.c.o.d -o CMakeFiles/RaceProject.dir/main.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/main.c"
+CMakeFiles/RaceProject.dir/src/main.c.o: CMakeFiles/RaceProject.dir/flags.make
+CMakeFiles/RaceProject.dir/src/main.c.o: ../src/main.c
+CMakeFiles/RaceProject.dir/src/main.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RaceProject.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/src/main.c.o -MF CMakeFiles/RaceProject.dir/src/main.c.o.d -o CMakeFiles/RaceProject.dir/src/main.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/main.c"
 
-CMakeFiles/RaceProject.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/main.c" > CMakeFiles/RaceProject.dir/main.c.i
+CMakeFiles/RaceProject.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/main.c" > CMakeFiles/RaceProject.dir/src/main.c.i
 
-CMakeFiles/RaceProject.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/main.c" -o CMakeFiles/RaceProject.dir/main.c.s
+CMakeFiles/RaceProject.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/main.c" -o CMakeFiles/RaceProject.dir/src/main.c.s
+
+CMakeFiles/RaceProject.dir/src/player/player.c.o: CMakeFiles/RaceProject.dir/flags.make
+CMakeFiles/RaceProject.dir/src/player/player.c.o: ../src/player/player.c
+CMakeFiles/RaceProject.dir/src/player/player.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RaceProject.dir/src/player/player.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/src/player/player.c.o -MF CMakeFiles/RaceProject.dir/src/player/player.c.o.d -o CMakeFiles/RaceProject.dir/src/player/player.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/player/player.c"
+
+CMakeFiles/RaceProject.dir/src/player/player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/src/player/player.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/player/player.c" > CMakeFiles/RaceProject.dir/src/player/player.c.i
+
+CMakeFiles/RaceProject.dir/src/player/player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/src/player/player.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/player/player.c" -o CMakeFiles/RaceProject.dir/src/player/player.c.s
+
+CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o: CMakeFiles/RaceProject.dir/flags.make
+CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o: ../src/game_area/game_area.c
+CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o -MF CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o.d -o CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_area/game_area.c"
+
+CMakeFiles/RaceProject.dir/src/game_area/game_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/src/game_area/game_area.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_area/game_area.c" > CMakeFiles/RaceProject.dir/src/game_area/game_area.c.i
+
+CMakeFiles/RaceProject.dir/src/game_area/game_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/src/game_area/game_area.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_area/game_area.c" -o CMakeFiles/RaceProject.dir/src/game_area/game_area.c.s
+
+CMakeFiles/RaceProject.dir/src/target/target.c.o: CMakeFiles/RaceProject.dir/flags.make
+CMakeFiles/RaceProject.dir/src/target/target.c.o: ../src/target/target.c
+CMakeFiles/RaceProject.dir/src/target/target.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RaceProject.dir/src/target/target.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/src/target/target.c.o -MF CMakeFiles/RaceProject.dir/src/target/target.c.o.d -o CMakeFiles/RaceProject.dir/src/target/target.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.c"
+
+CMakeFiles/RaceProject.dir/src/target/target.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/src/target/target.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.c" > CMakeFiles/RaceProject.dir/src/target/target.c.i
+
+CMakeFiles/RaceProject.dir/src/target/target.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/src/target/target.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.c" -o CMakeFiles/RaceProject.dir/src/target/target.c.s
+
+CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o: CMakeFiles/RaceProject.dir/flags.make
+CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o: ../src/game_instance/game_instance.c
+CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o: CMakeFiles/RaceProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o -MF CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o.d -o CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o -c "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_instance/game_instance.c"
+
+CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_instance/game_instance.c" > CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.i
+
+CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/game_instance/game_instance.c" -o CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.s
 
 # Object files for target RaceProject
 RaceProject_OBJECTS = \
-"CMakeFiles/RaceProject.dir/main.c.o"
+"CMakeFiles/RaceProject.dir/src/main.c.o" \
+"CMakeFiles/RaceProject.dir/src/player/player.c.o" \
+"CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o" \
+"CMakeFiles/RaceProject.dir/src/target/target.c.o" \
+"CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o"
 
 # External object files for target RaceProject
 RaceProject_EXTERNAL_OBJECTS =
 
-RaceProject: CMakeFiles/RaceProject.dir/main.c.o
+RaceProject: CMakeFiles/RaceProject.dir/src/main.c.o
+RaceProject: CMakeFiles/RaceProject.dir/src/player/player.c.o
+RaceProject: CMakeFiles/RaceProject.dir/src/game_area/game_area.c.o
+RaceProject: CMakeFiles/RaceProject.dir/src/target/target.c.o
+RaceProject: CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o
 RaceProject: CMakeFiles/RaceProject.dir/build.make
 RaceProject: CMakeFiles/RaceProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable RaceProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable RaceProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RaceProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
