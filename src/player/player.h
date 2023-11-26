@@ -2,10 +2,8 @@
  * A structure to store the position of the player, its velocity and its score
  */
 struct Player {
-    size_t x;
-    size_t y;
-    int xVelocity;
-    int yVelocity;
+    struct Vector *position;
+    struct Vector *velocity;
     int score;
 };
 

@@ -103,6 +103,12 @@
 		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/target/target.h">
 			<Option target="RaceProject"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/vector/vector.c">
+			<Option target="RaceProject"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/src/vector/vector.h">
+			<Option target="RaceProject"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/theop/OneDrive/Bureau/Université/Licence 2/Semestre 3/Algorithmique et Structure de Données/RaceProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

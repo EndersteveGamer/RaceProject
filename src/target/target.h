@@ -2,10 +2,8 @@
  * A structure to store the position of the target, and its dimensions
  */
 struct Target {
-    size_t x;
-    size_t y;
-    size_t width;
-    size_t height;
+    struct Vector *position;
+    struct Vector *size;
 };
 
 /**
@@ -17,3 +15,9 @@ struct Target {
  * @return The newly created target
  */
 struct Target *target_create(size_t x, size_t y, size_t width, size_t height);
+
+/**
+ * Destroys a target by freeing its memory
+ * @param self The target to destroy
+ */
+void target_destroy(struct Target *self);

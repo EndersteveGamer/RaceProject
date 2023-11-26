@@ -7,7 +7,7 @@
 void game_instance_destroy(struct GameInstance *self) {
     free(self->player);
     game_area_destroy(self->gameArea);
-    free(self->target);
+    target_destroy(self->target);
     free(self);
 }
 

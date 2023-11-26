@@ -249,6 +249,30 @@ src/target/target.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/target/target.c.s
 .PHONY : src/target/target.c.s
 
+src/vector/vector.o: src/vector/vector.c.o
+.PHONY : src/vector/vector.o
+
+# target to build an object file
+src/vector/vector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/vector/vector.c.o
+.PHONY : src/vector/vector.c.o
+
+src/vector/vector.i: src/vector/vector.c.i
+.PHONY : src/vector/vector.i
+
+# target to preprocess a source file
+src/vector/vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/vector/vector.c.i
+.PHONY : src/vector/vector.c.i
+
+src/vector/vector.s: src/vector/vector.c.s
+.PHONY : src/vector/vector.s
+
+# target to generate assembly for a file
+src/vector/vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaceProject.dir/build.make CMakeFiles/RaceProject.dir/src/vector/vector.c.s
+.PHONY : src/vector/vector.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... src/target/target.o"
 	@echo "... src/target/target.i"
 	@echo "... src/target/target.s"
+	@echo "... src/vector/vector.o"
+	@echo "... src/vector/vector.i"
+	@echo "... src/vector/vector.s"
 .PHONY : help
 
 

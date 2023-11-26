@@ -11,4 +11,6 @@ add_executable(RaceProject src/main.c
         src/target/target.h
         src/target/target.c
         src/game_instance/game_instance.h
-        src/game_instance/game_instance.c)
+        src/game_instance/game_instance.c
+        src/vector/vector.h
+        src/vector/vector.c)

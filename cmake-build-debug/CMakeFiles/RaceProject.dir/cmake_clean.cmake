@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RaceProject.dir/src/player/player.c.o.d"
   "CMakeFiles/RaceProject.dir/src/target/target.c.o"
   "CMakeFiles/RaceProject.dir/src/target/target.c.o.d"
+  "CMakeFiles/RaceProject.dir/src/vector/vector.c.o"
+  "CMakeFiles/RaceProject.dir/src/vector/vector.c.o.d"
   "RaceProject"
   "RaceProject.pdb"
 )

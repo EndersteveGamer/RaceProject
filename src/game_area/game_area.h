@@ -1,3 +1,5 @@
+#include "../vector/vector.h"
+
 /**
  * A structure to store the tiles of the game area
  */
@@ -26,4 +28,4 @@ void game_area_destroy(struct GameArea *self);
  * @param y The y coordinate of the tile
  * @return A pointer to the tile
  */
-int *game_area_get_tile_score(const struct GameArea *self, size_t x, size_t y);
+int *game_area_get_tile_score(const struct GameArea *self, const struct Vector *tile_position);

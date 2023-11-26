@@ -13,6 +13,6 @@ void game_area_destroy(struct GameArea *self) {
     free(self);
 }
 
-int *game_area_get_tile_score(const struct GameArea *self, const size_t x, const size_t y) {
-    return &self->tiles[x + y * self->width];
+int *game_area_get_tile_score(const struct GameArea *self, const struct Vector *tile_position) {
+    return &self->tiles[tile_position->x + tile_position->y * self->width];
 }
