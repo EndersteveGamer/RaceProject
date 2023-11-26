@@ -11,21 +11,21 @@
 /**
  * Clears the game instance, then returns the exit code
  * @param exit_code The exit code to return
- * @param gameInstance The game instance
+ * @param game_instance The game instance
  * @return 1 if an error occured, 0 otherwise
  */
-int end_game(int exit_code, struct GameInstance *gameInstance) {
-    game_instance_destroy(gameInstance);
+int end_game(int exit_code, struct GameInstance *game_instance) {
+    game_instance_destroy(game_instance);
     return exit_code;
 }
 
 /**
  * Receives a new target and replaces the previous one
- * @param gameInstance
+ * @param game_instance
  * @param buf
  */
-void receive_target(struct GameInstance *gameInstance, char *buf) {
-    if (gameInstance->target != NULL) free(gameInstance->target);
+void receive_target(struct GameInstance *game_instance, char *buf) {
+    if (game_instance->target != NULL) free(game_instance->target);
     fgets(buf, BUFSIZE, stdin);
     int x = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
@@ -34,7 +34,7 @@ void receive_target(struct GameInstance *gameInstance, char *buf) {
     int w = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
     int h = (int) strtol(buf,(char**) NULL, 10);
-    gameInstance->target = target_create(x, y, w, h);
+    game_instance->target = target_create(x, y, w, h);
 }
 
 /**
@@ -86,18 +86,18 @@ int main() {
         // Get the response and react
         fgets(buf, BUFSIZE, stdin);
         if (strcmp(buf, "ERROR\n") == 0) {
-            printf("ERROR: Incorrect move!\n");
+            fprintf(stderr, "ERROR: Incorrect move!\n");
             return end_game(1, &gameInstance);
         }
         if (strcmp(buf, "FINISH\n") == 0) {
-            printf("FINISHED with score: %i\n", gameInstance.player->score);
+            fprintf(stderr, "FINISHED with score: %i\n", gameInstance.player->score);
             return end_game(0, &gameInstance);
         }
         if (strcmp(buf, "CHECKPOINT\n") == 0) {
-            printf("CHECKPOINT\n");
+            fprintf(stderr, "CHECKPOINT\n");
             receive_target(&gameInstance, buf);
             continue;
         }
-        printf("OK\n");
+        fprintf(stderr, "OK\n");
     }
 }
