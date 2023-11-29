@@ -61,7 +61,9 @@ int main() {
         int value = (int) strtol(buf,(char**) NULL, 10);
         size_t x = i % size;
         size_t y = (i - x) / size;
-        *game_area_get_tile_score(gameInstance.gameArea, x, y) = value;
+        struct Vector vect;
+        vect.x = (int) x; vect.y = (int) y;
+        *game_area_get_tile_score(gameInstance.gameArea, &vect) = value;
     }
 
     // Get the player starting position
@@ -81,7 +83,7 @@ int main() {
         game_instance_tick(&gameInstance);
 
         // Send new position
-        printf("%i\n%i\n", px, py);
+        printf("%i\n%i\n", gameInstance.player->position->x, gameInstance.player->position->y);
 
         // Get the response and react
         fgets(buf, BUFSIZE, stdin);
