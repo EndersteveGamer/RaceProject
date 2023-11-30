@@ -40,6 +40,7 @@ CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /mnt/c/Users/theop/OneDrive/Bureau/Université/Licence\ 2/Semestre\ 3/Algorithmique\ et\ Structure\ de\ Données/RaceProject/src/game_instance/game_instance.h \
  /mnt/c/Users/theop/OneDrive/Bureau/Université/Licence\ 2/Semestre\ 3/Algorithmique\ et\ Structure\ de\ Données/RaceProject/src/game_instance/../player/player.h \
  /mnt/c/Users/theop/OneDrive/Bureau/Université/Licence\ 2/Semestre\ 3/Algorithmique\ et\ Structure\ de\ Données/RaceProject/src/game_instance/../target/target.h \

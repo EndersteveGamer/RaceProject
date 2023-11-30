@@ -92,7 +92,7 @@ int main() {
             return end_game(1, &gameInstance);
         }
         if (strcmp(buf, "FINISH\n") == 0) {
-            fprintf(stderr, "FINISHED with score: %i\n", gameInstance.player->score);
+            fprintf(stderr, "FINISHED");
             return end_game(0, &gameInstance);
         }
         if (strcmp(buf, "CHECKPOINT\n") == 0) {
