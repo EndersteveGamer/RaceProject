@@ -9,12 +9,6 @@ struct Player *player_create(const size_t startingX, const size_t startingY) {
     return new;
 }
 
-void player_destroy(struct Player *self) {
-    free(self->position);
-    free(self->velocity);
-    free(self);
-}
-
 void player_tick_movement(struct Player *self) {
     self->position->x += self->velocity->x;
     self->position->y += self->velocity->y;

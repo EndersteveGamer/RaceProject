@@ -25,7 +25,7 @@ int end_game(int exit_code, struct GameInstance *game_instance) {
  * @param buf
  */
 void receive_target(struct GameInstance *game_instance, char *buf) {
-    if (game_instance->target != NULL) target_destroy(game_instance->target);
+    if (game_instance->target != NULL) free(game_instance->target);
     fgets(buf, BUFSIZE, stdin);
     int x = (int) strtol(buf,(char**) NULL, 10);
     fgets(buf, BUFSIZE, stdin);
@@ -92,7 +92,7 @@ int main() {
             return end_game(1, &gameInstance);
         }
         if (strcmp(buf, "FINISH\n") == 0) {
-            fprintf(stderr, "FINISHED\n");
+            fprintf(stderr, "FINISHED");
             return end_game(0, &gameInstance);
         }
         if (strcmp(buf, "CHECKPOINT\n") == 0) {

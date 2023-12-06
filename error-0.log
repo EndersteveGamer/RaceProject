@@ -1,3477 +1,1576 @@
-size: 99
-initial position: 5, 76
-checkpoint: 64, 19 | 3, 3
+size: 87
+initial position: 24, 72
+checkpoint: 21, 81 | 3, 2
 target: 0, 0
 #################
-position: 5, 76
-velocity: 0, 0
-computed velocity: 1, -1
-clamped velocity: 1, -1
-new position: 6, 75
-OK
-#################
-position: 6, 75
-velocity: 1, -1
-computed velocity: 2, -2
-clamped velocity: 2, -2
-new position: 8, 73
-OK
-#################
-position: 8, 73
-velocity: 2, -2
-computed velocity: 3, -3
-clamped velocity: 3, -3
-new position: 11, 70
-OK
-#################
-position: 11, 70
-velocity: 3, -3
-computed velocity: 4, -4
-clamped velocity: 4, -4
-new position: 15, 66
-OK
-#################
-position: 15, 66
-velocity: 4, -4
-computed velocity: 5, -5
-clamped velocity: 5, -5
-new position: 20, 61
-OK
-#################
-position: 20, 61
-velocity: 5, -5
-computed velocity: 6, -6
-clamped velocity: 6, -6
-new position: 26, 55
-OK
-#################
-position: 26, 55
-velocity: 6, -6
-computed velocity: 7, -7
-clamped velocity: 7, -7
-new position: 33, 48
-OK
-#################
-position: 33, 48
-velocity: 7, -7
-computed velocity: 8, -8
-clamped velocity: 8, -8
-new position: 41, 40
-OK
-#################
-position: 41, 40
-velocity: 8, -8
-computed velocity: 9, -9
-clamped velocity: 9, -8
-new position: 50, 32
-OK
-#################
-position: 50, 32
-velocity: 9, -8
-computed velocity: 10, -9
-clamped velocity: 9, -7
-new position: 59, 25
-OK
-#################
-position: 59, 25
-velocity: 9, -7
-computed velocity: 8, -6
-clamped velocity: 8, -6
-new position: 67, 19
-OK
-#################
-position: 67, 19
-velocity: 8, -6
-computed velocity: 7, -5
-clamped velocity: 7, -5
-new position: 74, 14
-OK
-#################
-position: 74, 14
-velocity: 7, -5
-computed velocity: 6, -4
-clamped velocity: 6, -4
-new position: 80, 10
-OK
-#################
-position: 80, 10
-velocity: 6, -4
-computed velocity: 5, -3
-clamped velocity: 5, -3
-new position: 85, 7
-OK
-#################
-position: 85, 7
-velocity: 5, -3
-computed velocity: 4, -2
-clamped velocity: 4, -2
-new position: 89, 5
-OK
-#################
-position: 89, 5
-velocity: 4, -2
-computed velocity: 3, -1
-clamped velocity: 3, -1
-new position: 92, 4
-OK
-#################
-position: 92, 4
-velocity: 3, -1
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 94, 4
-OK
-#################
-position: 94, 4
-velocity: 2, 0
-computed velocity: 1, 1
-clamped velocity: 1, 1
-new position: 95, 5
-OK
-#################
-position: 95, 5
-velocity: 1, 1
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 95, 7
-OK
-#################
-position: 95, 7
-velocity: 0, 2
-computed velocity: -1, 3
-clamped velocity: -1, 3
-new position: 94, 10
-OK
-#################
-position: 94, 10
-velocity: -1, 3
-computed velocity: -2, 4
-clamped velocity: -2, 4
-new position: 92, 14
-OK
-#################
-position: 92, 14
-velocity: -2, 4
-computed velocity: -3, 5
-clamped velocity: -3, 5
-new position: 89, 19
-OK
-#################
-position: 89, 19
-velocity: -3, 5
-computed velocity: -4, 4
-clamped velocity: -4, 4
-new position: 85, 23
-OK
-#################
-position: 85, 23
-velocity: -4, 4
-computed velocity: -5, 3
-clamped velocity: -5, 3
-new position: 80, 26
-OK
-#################
-position: 80, 26
-velocity: -5, 3
-computed velocity: -6, 2
-clamped velocity: -6, 2
-new position: 74, 28
-OK
-#################
-position: 74, 28
-velocity: -6, 2
-computed velocity: -7, 1
-clamped velocity: -7, 1
-new position: 67, 29
-OK
-#################
-position: 67, 29
-velocity: -7, 1
-computed velocity: -6, 0
-clamped velocity: -6, 0
-new position: 61, 29
-OK
-#################
-position: 61, 29
-velocity: -6, 0
-computed velocity: -5, -1
-clamped velocity: -5, -1
-new position: 56, 28
-OK
-#################
-position: 56, 28
-velocity: -5, -1
-computed velocity: -4, -2
-clamped velocity: -4, -2
-new position: 52, 26
-OK
-#################
-position: 52, 26
-velocity: -4, -2
-computed velocity: -3, -3
-clamped velocity: -3, -3
-new position: 49, 23
-OK
-#################
-position: 49, 23
-velocity: -3, -3
-computed velocity: -2, -2
-clamped velocity: -2, -2
-new position: 47, 21
-OK
-#################
-position: 47, 21
-velocity: -2, -2
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 46, 20
-OK
-#################
-position: 46, 20
-velocity: -1, -1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 46, 20
-OK
-#################
-position: 46, 20
-velocity: 0, 0
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 47, 20
-OK
-#################
-position: 47, 20
-velocity: 1, 0
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 49, 20
-OK
-#################
-position: 49, 20
-velocity: 2, 0
-computed velocity: 3, 0
-clamped velocity: 3, 0
-new position: 52, 20
-OK
-#################
-position: 52, 20
-velocity: 3, 0
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 56, 20
-OK
-#################
-position: 56, 20
-velocity: 4, 0
-computed velocity: 5, 0
-clamped velocity: 5, 0
-new position: 61, 20
-OK
-#################
-position: 61, 20
-velocity: 5, 0
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 65, 20
-CHECKPOINT
-checkpoint: 43, 74 | 3, 3
-target: 64, 20
-#################
-position: 65, 20
-velocity: 4, 0
-computed velocity: 3, 1
-clamped velocity: 3, 1
-new position: 68, 21
-OK
-#################
-position: 68, 21
-velocity: 3, 1
-computed velocity: 2, 2
-clamped velocity: 2, 2
-new position: 70, 23
-OK
-#################
-position: 70, 23
-velocity: 2, 2
-computed velocity: 1, 3
-clamped velocity: 1, 3
-new position: 71, 26
-OK
-#################
-position: 71, 26
-velocity: 1, 3
-computed velocity: 0, 4
-clamped velocity: 0, 4
-new position: 71, 30
-OK
-#################
-position: 71, 30
-velocity: 0, 4
-computed velocity: -1, 5
-clamped velocity: -1, 5
-new position: 70, 35
-OK
-#################
-position: 70, 35
-velocity: -1, 5
-computed velocity: -2, 6
-clamped velocity: -2, 6
-new position: 68, 41
-OK
-#################
-position: 68, 41
-velocity: -2, 6
-computed velocity: -3, 7
-clamped velocity: -3, 7
-new position: 65, 48
-OK
-#################
-position: 65, 48
-velocity: -3, 7
-computed velocity: -4, 8
-clamped velocity: -4, 8
-new position: 61, 56
-OK
-#################
-position: 61, 56
-velocity: -4, 8
-computed velocity: -5, 9
-clamped velocity: -5, 8
-new position: 56, 64
-OK
-#################
-position: 56, 64
-velocity: -5, 8
-computed velocity: -6, 9
-clamped velocity: -6, 7
-new position: 50, 71
-OK
-#################
-position: 50, 71
-velocity: -6, 7
-computed velocity: -5, 6
-clamped velocity: -5, 6
-new position: 45, 77
-OK
-#################
-position: 45, 77
-velocity: -5, 6
-computed velocity: -4, 5
-clamped velocity: -4, 5
-new position: 41, 82
-OK
-#################
-position: 41, 82
-velocity: -4, 5
-computed velocity: -3, 4
-clamped velocity: -3, 4
-new position: 38, 86
-OK
-#################
-position: 38, 86
-velocity: -3, 4
-computed velocity: -2, 3
-clamped velocity: -2, 3
-new position: 36, 89
-OK
-#################
-position: 36, 89
-velocity: -2, 3
-computed velocity: -1, 2
-clamped velocity: -1, 2
-new position: 35, 91
-OK
-#################
-position: 35, 91
-velocity: -1, 2
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 35, 92
-OK
-#################
-position: 35, 92
-velocity: 0, 1
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 36, 92
-OK
-#################
-position: 36, 92
-velocity: 1, 0
-computed velocity: 2, -1
-clamped velocity: 2, -1
-new position: 38, 91
-OK
-#################
-position: 38, 91
-velocity: 2, -1
-computed velocity: 3, -2
-clamped velocity: 3, -2
-new position: 41, 89
-OK
-#################
-position: 41, 89
-velocity: 3, -2
-computed velocity: 2, -3
-clamped velocity: 2, -3
-new position: 43, 86
-OK
-#################
-position: 43, 86
-velocity: 2, -3
-computed velocity: 1, -4
-clamped velocity: 1, -4
-new position: 44, 82
-OK
-#################
-position: 44, 82
-velocity: 1, -4
-computed velocity: 0, -5
-clamped velocity: 0, -5
-new position: 44, 77
-OK
-#################
-position: 44, 77
-velocity: 0, -5
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 44, 73
-OK
-#################
-position: 44, 73
-velocity: 0, -4
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 44, 70
-OK
-#################
-position: 44, 70
-velocity: 0, -3
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 44, 68
-OK
-#################
-position: 44, 68
-velocity: 0, -2
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 44, 67
-OK
-#################
-position: 44, 67
-velocity: 0, -1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 44, 67
-OK
-#################
-position: 44, 67
-velocity: 0, 0
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 44, 68
-OK
-#################
-position: 44, 68
-velocity: 0, 1
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 44, 70
-OK
-#################
-position: 44, 70
-velocity: 0, 2
-computed velocity: 0, 3
-clamped velocity: 0, 3
-new position: 44, 73
-OK
-#################
-position: 44, 73
-velocity: 0, 3
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 44, 75
-CHECKPOINT
-checkpoint: 41, 35 | 5, 4
-target: 44, 74
-#################
-position: 44, 75
-velocity: 0, 2
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 44, 76
-OK
-#################
-position: 44, 76
-velocity: 0, 1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 44, 76
-OK
-#################
-position: 44, 76
-velocity: 0, 0
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 44, 75
-OK
-#################
-position: 44, 75
-velocity: 0, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 44, 73
-OK
-#################
-position: 44, 73
-velocity: 0, -2
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 44, 70
-OK
-#################
-position: 44, 70
-velocity: 0, -3
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 44, 66
-OK
-#################
-position: 44, 66
-velocity: 0, -4
-computed velocity: 0, -5
-clamped velocity: 0, -5
-new position: 44, 61
-OK
-#################
-position: 44, 61
-velocity: 0, -5
-computed velocity: 0, -6
-clamped velocity: 0, -6
-new position: 44, 55
-OK
-#################
-position: 44, 55
-velocity: 0, -6
-computed velocity: 0, -7
-clamped velocity: 0, -7
-new position: 44, 48
-OK
-#################
-position: 44, 48
-velocity: 0, -7
-computed velocity: 0, -8
-clamped velocity: 0, -8
-new position: 44, 40
-OK
-#################
-position: 44, 40
-velocity: 0, -8
-computed velocity: 0, -7
-clamped velocity: 0, -7
-new position: 44, 33
-OK
-#################
-position: 44, 33
-velocity: 0, -7
-computed velocity: 0, -6
-clamped velocity: 0, -6
-new position: 44, 27
-OK
-#################
-position: 44, 27
-velocity: 0, -6
-computed velocity: 0, -5
-clamped velocity: 0, -5
-new position: 44, 22
-OK
-#################
-position: 44, 22
-velocity: 0, -5
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 44, 18
-OK
-#################
-position: 44, 18
-velocity: 0, -4
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 44, 15
-OK
-#################
-position: 44, 15
-velocity: 0, -3
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 44, 13
-OK
-#################
-position: 44, 13
-velocity: 0, -2
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 44, 12
-OK
-#################
-position: 44, 12
-velocity: 0, -1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 44, 12
-OK
-#################
-position: 44, 12
-velocity: 0, 0
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 44, 13
-OK
-#################
-position: 44, 13
-velocity: 0, 1
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 44, 15
-OK
-#################
-position: 44, 15
-velocity: 0, 2
-computed velocity: 0, 3
-clamped velocity: 0, 3
-new position: 44, 18
-OK
-#################
-position: 44, 18
-velocity: 0, 3
-computed velocity: 0, 4
-clamped velocity: 0, 4
-new position: 44, 22
-OK
-#################
-position: 44, 22
-velocity: 0, 4
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 44, 27
-OK
-#################
-position: 44, 27
-velocity: 0, 5
-computed velocity: 0, 6
-clamped velocity: 0, 6
-new position: 44, 33
-OK
-#################
-position: 44, 33
-velocity: 0, 6
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 44, 38
-CHECKPOINT
-checkpoint: 96, 44 | 2, 4
-target: 44, 35
-#################
-position: 44, 38
-velocity: 0, 5
-computed velocity: 1, 6
-clamped velocity: 1, 6
-new position: 45, 44
-OK
-#################
-position: 45, 44
-velocity: 1, 6
-computed velocity: 2, 5
-clamped velocity: 2, 5
-new position: 47, 49
-OK
-#################
-position: 47, 49
-velocity: 2, 5
-computed velocity: 3, 4
-clamped velocity: 3, 4
-new position: 50, 53
-OK
-#################
-position: 50, 53
-velocity: 3, 4
-computed velocity: 4, 3
-clamped velocity: 4, 3
-new position: 54, 56
-OK
-#################
-position: 54, 56
-velocity: 4, 3
-computed velocity: 5, 2
-clamped velocity: 5, 2
-new position: 59, 58
-OK
-#################
-position: 59, 58
-velocity: 5, 2
-computed velocity: 6, 1
-clamped velocity: 6, 1
-new position: 65, 59
-OK
-#################
-position: 65, 59
-velocity: 6, 1
-computed velocity: 7, 0
-clamped velocity: 7, 0
-new position: 72, 59
-OK
-#################
-position: 72, 59
-velocity: 7, 0
-computed velocity: 8, -1
-clamped velocity: 6, -1
-new position: 78, 58
-OK
-#################
-position: 78, 58
-velocity: 6, -1
-computed velocity: 7, -2
-clamped velocity: 5, -2
-new position: 83, 56
-OK
-#################
-position: 83, 56
-velocity: 5, -2
-computed velocity: 6, -3
-clamped velocity: 5, -3
-new position: 88, 53
-OK
-#################
-position: 88, 53
-velocity: 5, -3
-computed velocity: 6, -4
-clamped velocity: 4, -4
-new position: 92, 49
-OK
-#################
-position: 92, 49
-velocity: 4, -4
-computed velocity: 4, -3
-clamped velocity: 3, -3
-new position: 95, 46
-OK
-#################
-position: 95, 46
-velocity: 3, -3
-computed velocity: 2, -2
-clamped velocity: 2, -2
-new position: 97, 44
-CHECKPOINT
-checkpoint: 70, 63 | 2, 4
-target: 96, 46
-#################
-position: 97, 44
-velocity: 2, -2
-computed velocity: 1, -1
-clamped velocity: 1, -1
-new position: 98, 43
-OK
-#################
-position: 98, 43
-velocity: 1, -1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 98, 43
-OK
-#################
-position: 98, 43
+position: 24, 72
 velocity: 0, 0
 computed velocity: -1, 1
 clamped velocity: -1, 1
-new position: 97, 44
+new position: 23, 73
 OK
 #################
-position: 97, 44
+position: 23, 73
 velocity: -1, 1
-computed velocity: -2, 2
-clamped velocity: -2, 2
-new position: 95, 46
-OK
-#################
-position: 95, 46
-velocity: -2, 2
-computed velocity: -3, 3
-clamped velocity: -3, 3
-new position: 92, 49
-OK
-#################
-position: 92, 49
-velocity: -3, 3
-computed velocity: -4, 4
-clamped velocity: -4, 4
-new position: 88, 53
-OK
-#################
-position: 88, 53
-velocity: -4, 4
-computed velocity: -5, 5
-clamped velocity: -5, 5
-new position: 83, 58
-OK
-#################
-position: 83, 58
-velocity: -5, 5
-computed velocity: -6, 5
-clamped velocity: -6, 5
-new position: 77, 63
-OK
-#################
-position: 77, 63
-velocity: -6, 5
-computed velocity: -6, 4
-clamped velocity: -6, 4
-new position: 71, 67
-OK
-#################
-position: 71, 67
-velocity: -6, 4
-computed velocity: -5, 3
-clamped velocity: -5, 3
-new position: 66, 70
-OK
-#################
-position: 66, 70
-velocity: -5, 3
-computed velocity: -4, 2
-clamped velocity: -4, 2
-new position: 62, 72
-OK
-#################
-position: 62, 72
-velocity: -4, 2
-computed velocity: -3, 1
-clamped velocity: -3, 1
-new position: 59, 73
-OK
-#################
-position: 59, 73
-velocity: -3, 1
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 57, 73
-OK
-#################
-position: 57, 73
-velocity: -2, 0
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 56, 72
-OK
-#################
-position: 56, 72
-velocity: -1, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 56, 70
-OK
-#################
-position: 56, 70
-velocity: 0, -2
-computed velocity: 1, -3
-clamped velocity: 1, -3
-new position: 57, 67
-OK
-#################
-position: 57, 67
-velocity: 1, -3
-computed velocity: 2, -2
-clamped velocity: 2, -2
-new position: 59, 65
-OK
-#################
-position: 59, 65
-velocity: 2, -2
-computed velocity: 3, -1
-clamped velocity: 3, -1
-new position: 62, 64
-OK
-#################
-position: 62, 64
-velocity: 3, -1
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 66, 64
-OK
-#################
-position: 66, 64
-velocity: 4, 0
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 70, 64
-CHECKPOINT
-checkpoint: 67, 4 | 2, 2
-target: 70, 64
-#################
-position: 70, 64
-velocity: 4, 0
-computed velocity: 3, -1
-clamped velocity: 3, -1
-new position: 73, 63
-OK
-#################
-position: 73, 63
-velocity: 3, -1
-computed velocity: 2, -2
-clamped velocity: 2, -2
-new position: 75, 61
-OK
-#################
-position: 75, 61
-velocity: 2, -2
-computed velocity: 1, -3
-clamped velocity: 1, -3
-new position: 76, 58
-OK
-#################
-position: 76, 58
-velocity: 1, -3
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 76, 54
-OK
-#################
-position: 76, 54
-velocity: 0, -4
-computed velocity: -1, -5
-clamped velocity: -1, -5
-new position: 75, 49
-OK
-#################
-position: 75, 49
-velocity: -1, -5
-computed velocity: -2, -6
-clamped velocity: -2, -6
-new position: 73, 43
-OK
-#################
-position: 73, 43
-velocity: -2, -6
-computed velocity: -3, -7
-clamped velocity: -3, -7
-new position: 70, 36
-OK
-#################
-position: 70, 36
-velocity: -3, -7
-computed velocity: -2, -8
-clamped velocity: -2, -8
-new position: 68, 28
-OK
-#################
-position: 68, 28
-velocity: -2, -8
-computed velocity: -1, -9
-clamped velocity: -1, -7
-new position: 67, 21
-OK
-#################
-position: 67, 21
-velocity: -1, -7
-computed velocity: 0, -8
-clamped velocity: 0, -6
-new position: 67, 15
-OK
-#################
-position: 67, 15
-velocity: 0, -6
-computed velocity: 0, -7
-clamped velocity: 0, -5
-new position: 67, 10
-OK
-#################
-position: 67, 10
-velocity: 0, -5
-computed velocity: 0, -5
-clamped velocity: 0, -4
-new position: 67, 6
-OK
-#################
-position: 67, 6
-velocity: 0, -4
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 67, 3
-OK
-#################
-position: 67, 3
-velocity: 0, -3
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 67, 1
-OK
-#################
-position: 67, 1
-velocity: 0, -2
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 67, 0
-OK
-#################
-position: 67, 0
-velocity: 0, -1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 67, 0
-OK
-#################
-position: 67, 0
-velocity: 0, 0
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 67, 1
-OK
-#################
-position: 67, 1
-velocity: 0, 1
 computed velocity: 0, 2
 clamped velocity: 0, 2
-new position: 67, 3
+new position: 23, 75
 OK
 #################
-position: 67, 3
+position: 23, 75
 velocity: 0, 2
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 67, 4
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 23, 78
+OK
+#################
+position: 23, 78
+velocity: 0, 3
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 23, 81
 CHECKPOINT
-checkpoint: 24, 65 | 4, 4
-target: 67, 4
+checkpoint: 69, 41 | 2, 4
+target: 23, 81
 #################
-position: 67, 4
-velocity: 0, 1
-computed velocity: -1, 2
-clamped velocity: -1, 2
-new position: 66, 6
-OK
-#################
-position: 66, 6
-velocity: -1, 2
-computed velocity: -2, 3
-clamped velocity: -2, 3
-new position: 64, 9
-OK
-#################
-position: 64, 9
-velocity: -2, 3
-computed velocity: -3, 4
-clamped velocity: -3, 4
-new position: 61, 13
-OK
-#################
-position: 61, 13
-velocity: -3, 4
-computed velocity: -4, 5
-clamped velocity: -4, 5
-new position: 57, 18
-OK
-#################
-position: 57, 18
-velocity: -4, 5
-computed velocity: -5, 6
-clamped velocity: -5, 6
-new position: 52, 24
-OK
-#################
-position: 52, 24
-velocity: -5, 6
-computed velocity: -6, 7
-clamped velocity: -6, 7
-new position: 46, 31
-OK
-#################
-position: 46, 31
-velocity: -6, 7
-computed velocity: -7, 8
-clamped velocity: -7, 8
-new position: 39, 39
-OK
-#################
-position: 39, 39
-velocity: -7, 8
-computed velocity: -8, 9
-clamped velocity: -8, 9
-new position: 31, 48
-OK
-#################
-position: 31, 48
-velocity: -8, 9
-computed velocity: -7, 10
-clamped velocity: -7, 9
-new position: 24, 57
-OK
-#################
-position: 24, 57
-velocity: -7, 9
-computed velocity: -6, 8
-clamped velocity: -6, 8
-new position: 18, 65
-OK
-#################
-position: 18, 65
-velocity: -6, 8
-computed velocity: -5, 7
-clamped velocity: -5, 7
-new position: 13, 72
-OK
-#################
-position: 13, 72
-velocity: -5, 7
-computed velocity: -4, 6
-clamped velocity: -4, 6
-new position: 9, 78
-OK
-#################
-position: 9, 78
-velocity: -4, 6
-computed velocity: -3, 5
-clamped velocity: -3, 5
-new position: 6, 83
-OK
-#################
-position: 6, 83
-velocity: -3, 5
-computed velocity: -2, 4
-clamped velocity: -2, 4
-new position: 4, 87
-OK
-#################
-position: 4, 87
-velocity: -2, 4
-computed velocity: -1, 3
-clamped velocity: -1, 3
-new position: 3, 90
-OK
-#################
-position: 3, 90
-velocity: -1, 3
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 3, 92
-OK
-#################
-position: 3, 92
-velocity: 0, 2
-computed velocity: 1, 1
-clamped velocity: 1, 1
-new position: 4, 93
-OK
-#################
-position: 4, 93
-velocity: 1, 1
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 6, 93
-OK
-#################
-position: 6, 93
-velocity: 2, 0
-computed velocity: 3, -1
-clamped velocity: 3, -1
-new position: 9, 92
-OK
-#################
-position: 9, 92
-velocity: 3, -1
-computed velocity: 4, -2
-clamped velocity: 4, -2
-new position: 13, 90
-OK
-#################
-position: 13, 90
-velocity: 4, -2
-computed velocity: 5, -3
-clamped velocity: 5, -3
-new position: 18, 87
-OK
-#################
-position: 18, 87
-velocity: 5, -3
-computed velocity: 6, -4
-clamped velocity: 6, -4
+position: 23, 81
+velocity: 0, 3
+computed velocity: 1, 2
+clamped velocity: 1, 2
 new position: 24, 83
 OK
 #################
 position: 24, 83
-velocity: 6, -4
-computed velocity: 5, -5
-clamped velocity: 5, -5
-new position: 29, 78
+velocity: 1, 2
+computed velocity: 2, 1
+clamped velocity: 2, 1
+new position: 26, 84
 OK
 #################
-position: 29, 78
-velocity: 5, -5
-computed velocity: 4, -6
-clamped velocity: 4, -6
-new position: 33, 72
-OK
-#################
-position: 33, 72
-velocity: 4, -6
-computed velocity: 3, -5
-clamped velocity: 3, -5
-new position: 36, 67
-OK
-#################
-position: 36, 67
-velocity: 3, -5
-computed velocity: 2, -4
-clamped velocity: 2, -4
-new position: 38, 63
-OK
-#################
-position: 38, 63
-velocity: 2, -4
-computed velocity: 1, -3
-clamped velocity: 1, -3
-new position: 39, 60
-OK
-#################
-position: 39, 60
-velocity: 1, -3
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 39, 58
-OK
-#################
-position: 39, 58
-velocity: 0, -2
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 38, 57
-OK
-#################
-position: 38, 57
-velocity: -1, -1
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 36, 57
-OK
-#################
-position: 36, 57
-velocity: -2, 0
-computed velocity: -3, 1
-clamped velocity: -3, 1
-new position: 33, 58
-OK
-#################
-position: 33, 58
-velocity: -3, 1
-computed velocity: -4, 2
-clamped velocity: -4, 2
-new position: 29, 60
-OK
-#################
-position: 29, 60
-velocity: -4, 2
-computed velocity: -3, 3
-clamped velocity: -3, 3
-new position: 26, 63
-OK
-#################
-position: 26, 63
-velocity: -3, 3
-computed velocity: -2, 2
-clamped velocity: -2, 2
-new position: 24, 65
-CHECKPOINT
-checkpoint: 98, 3 | 1, 3
-target: 26, 65
-#################
-position: 24, 65
-velocity: -2, 2
-computed velocity: -1, 1
-clamped velocity: -1, 1
-new position: 23, 66
-OK
-#################
-position: 23, 66
-velocity: -1, 1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 23, 66
-OK
-#################
-position: 23, 66
-velocity: 0, 0
-computed velocity: 1, -1
-clamped velocity: 1, -1
-new position: 24, 65
-OK
-#################
-position: 24, 65
-velocity: 1, -1
-computed velocity: 2, -2
-clamped velocity: 2, -2
-new position: 26, 63
-OK
-#################
-position: 26, 63
-velocity: 2, -2
-computed velocity: 3, -3
-clamped velocity: 3, -3
-new position: 29, 60
-OK
-#################
-position: 29, 60
-velocity: 3, -3
-computed velocity: 4, -4
-clamped velocity: 4, -4
-new position: 33, 56
-OK
-#################
-position: 33, 56
-velocity: 4, -4
-computed velocity: 5, -5
-clamped velocity: 5, -5
-new position: 38, 51
-OK
-#################
-position: 38, 51
-velocity: 5, -5
-computed velocity: 6, -6
-clamped velocity: 6, -6
-new position: 44, 45
-OK
-#################
-position: 44, 45
-velocity: 6, -6
-computed velocity: 7, -7
-clamped velocity: 7, -7
-new position: 51, 38
-OK
-#################
-position: 51, 38
-velocity: 7, -7
-computed velocity: 8, -8
-clamped velocity: 8, -8
-new position: 59, 30
-OK
-#################
-position: 59, 30
-velocity: 8, -8
-computed velocity: 9, -9
-clamped velocity: 8, -7
-new position: 67, 23
-OK
-#################
-position: 67, 23
-velocity: 8, -7
-computed velocity: 9, -8
-clamped velocity: 7, -6
-new position: 74, 17
-OK
-#################
-position: 74, 17
-velocity: 7, -6
-computed velocity: 8, -7
-clamped velocity: 6, -5
-new position: 80, 12
-OK
-#################
-position: 80, 12
-velocity: 6, -5
-computed velocity: 7, -6
-clamped velocity: 5, -4
-new position: 85, 8
-OK
-#################
-position: 85, 8
-velocity: 5, -4
-computed velocity: 6, -3
-clamped velocity: 4, -3
-new position: 89, 5
-OK
-#################
-position: 89, 5
-velocity: 4, -3
-computed velocity: 5, -2
-clamped velocity: 3, -2
-new position: 92, 3
-OK
-#################
-position: 92, 3
-velocity: 3, -2
-computed velocity: 4, -1
-clamped velocity: 3, -1
-new position: 95, 2
-OK
-#################
-position: 95, 2
-velocity: 3, -1
+position: 26, 84
+velocity: 2, 1
 computed velocity: 3, 0
-clamped velocity: 2, 0
-new position: 97, 2
+clamped velocity: 3, 0
+new position: 29, 84
 OK
 #################
-position: 97, 2
-velocity: 2, 0
-computed velocity: 1, 1
-clamped velocity: 1, 1
-new position: 98, 3
-CHECKPOINT
-checkpoint: 24, 86 | 1, 2
-target: 98, 3
-#################
-position: 98, 3
-velocity: 1, 1
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 98, 5
+position: 29, 84
+velocity: 3, 0
+computed velocity: 4, -1
+clamped velocity: 4, -1
+new position: 33, 83
 OK
 #################
-position: 98, 5
-velocity: 0, 2
-computed velocity: -1, 3
-clamped velocity: -1, 3
-new position: 97, 8
+position: 33, 83
+velocity: 4, -1
+computed velocity: 5, -2
+clamped velocity: 5, -2
+new position: 38, 81
 OK
 #################
-position: 97, 8
-velocity: -1, 3
-computed velocity: -2, 4
-clamped velocity: -2, 4
-new position: 95, 12
+position: 38, 81
+velocity: 5, -2
+computed velocity: 6, -3
+clamped velocity: 6, -3
+new position: 44, 78
 OK
 #################
-position: 95, 12
-velocity: -2, 4
-computed velocity: -3, 5
-clamped velocity: -3, 5
-new position: 92, 17
+position: 44, 78
+velocity: 6, -3
+computed velocity: 7, -4
+clamped velocity: 7, -4
+new position: 51, 74
 OK
 #################
-position: 92, 17
-velocity: -3, 5
-computed velocity: -4, 6
-clamped velocity: -4, 6
-new position: 88, 23
+position: 51, 74
+velocity: 7, -4
+computed velocity: 8, -5
+clamped velocity: 7, -5
+new position: 58, 69
 OK
 #################
-position: 88, 23
-velocity: -4, 6
-computed velocity: -5, 7
-clamped velocity: -5, 7
-new position: 83, 30
-OK
-#################
-position: 83, 30
-velocity: -5, 7
-computed velocity: -6, 8
-clamped velocity: -6, 8
-new position: 77, 38
-OK
-#################
-position: 77, 38
-velocity: -6, 8
-computed velocity: -7, 9
-clamped velocity: -7, 9
-new position: 70, 47
-OK
-#################
-position: 70, 47
-velocity: -7, 9
-computed velocity: -8, 10
-clamped velocity: -8, 9
-new position: 62, 56
-OK
-#################
-position: 62, 56
-velocity: -8, 9
-computed velocity: -9, 10
-clamped velocity: -9, 8
-new position: 53, 64
-OK
-#################
-position: 53, 64
-velocity: -9, 8
-computed velocity: -10, 9
-clamped velocity: -9, 7
-new position: 44, 71
-OK
-#################
-position: 44, 71
-velocity: -9, 7
-computed velocity: -10, 8
-clamped velocity: -8, 6
-new position: 36, 77
-OK
-#################
-position: 36, 77
-velocity: -8, 6
-computed velocity: -9, 7
-clamped velocity: -8, 6
-new position: 28, 83
-OK
-#################
-position: 28, 83
-velocity: -8, 6
-computed velocity: -7, 5
-clamped velocity: -7, 5
-new position: 21, 88
-OK
-#################
-position: 21, 88
-velocity: -7, 5
-computed velocity: -6, 4
-clamped velocity: -6, 4
-new position: 15, 92
-OK
-#################
-position: 15, 92
-velocity: -6, 4
-computed velocity: -5, 3
-clamped velocity: -5, 3
-new position: 10, 95
-OK
-#################
-position: 10, 95
-velocity: -5, 3
-computed velocity: -4, 2
-clamped velocity: -4, 2
-new position: 6, 97
-OK
-#################
-position: 6, 97
-velocity: -4, 2
-computed velocity: -3, 1
-clamped velocity: -3, 1
-new position: 3, 98
-OK
-#################
-position: 3, 98
-velocity: -3, 1
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 1, 98
-OK
-#################
-position: 1, 98
-velocity: -2, 0
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 0, 97
-OK
-#################
-position: 0, 97
-velocity: -1, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 0, 95
-OK
-#################
-position: 0, 95
-velocity: 0, -2
-computed velocity: 1, -3
-clamped velocity: 1, -3
-new position: 1, 92
-OK
-#################
-position: 1, 92
-velocity: 1, -3
-computed velocity: 2, -4
-clamped velocity: 2, -4
-new position: 3, 88
-OK
-#################
-position: 3, 88
-velocity: 2, -4
-computed velocity: 3, -3
-clamped velocity: 3, -3
-new position: 6, 85
-OK
-#################
-position: 6, 85
-velocity: 3, -3
-computed velocity: 4, -2
-clamped velocity: 4, -2
-new position: 10, 83
-OK
-#################
-position: 10, 83
-velocity: 4, -2
-computed velocity: 5, -1
-clamped velocity: 5, -1
-new position: 15, 82
-OK
-#################
-position: 15, 82
-velocity: 5, -1
-computed velocity: 6, 0
-clamped velocity: 6, 0
-new position: 21, 82
-OK
-#################
-position: 21, 82
-velocity: 6, 0
-computed velocity: 5, 1
-clamped velocity: 5, 1
-new position: 26, 83
-OK
-#################
-position: 26, 83
-velocity: 5, 1
-computed velocity: 4, 2
-clamped velocity: 4, 2
-new position: 30, 85
-OK
-#################
-position: 30, 85
-velocity: 4, 2
-computed velocity: 3, 1
-clamped velocity: 3, 1
-new position: 33, 86
-OK
-#################
-position: 33, 86
-velocity: 3, 1
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 35, 86
-OK
-#################
-position: 35, 86
-velocity: 2, 0
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 36, 86
-OK
-#################
-position: 36, 86
-velocity: 1, 0
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 36, 86
-OK
-#################
-position: 36, 86
-velocity: 0, 0
-computed velocity: -1, 0
-clamped velocity: -1, 0
-new position: 35, 86
-OK
-#################
-position: 35, 86
-velocity: -1, 0
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 33, 86
-OK
-#################
-position: 33, 86
-velocity: -2, 0
-computed velocity: -3, 0
-clamped velocity: -3, 0
-new position: 30, 86
-OK
-#################
-position: 30, 86
-velocity: -3, 0
-computed velocity: -4, 0
-clamped velocity: -4, 0
-new position: 26, 86
-OK
-#################
-position: 26, 86
-velocity: -4, 0
-computed velocity: -3, 0
-clamped velocity: -3, 0
-new position: 23, 86
-OK
-#################
-position: 23, 86
-velocity: -3, 0
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 21, 86
-OK
-#################
-position: 21, 86
-velocity: -2, 0
-computed velocity: -1, 0
-clamped velocity: -1, 0
-new position: 20, 86
-OK
-#################
-position: 20, 86
-velocity: -1, 0
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 20, 86
-OK
-#################
-position: 20, 86
-velocity: 0, 0
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 21, 86
-OK
-#################
-position: 21, 86
-velocity: 1, 0
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 23, 86
-OK
-#################
-position: 23, 86
-velocity: 2, 0
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 24, 86
-CHECKPOINT
-checkpoint: 56, 30 | 5, 2
-target: 24, 86
-#################
-position: 24, 86
-velocity: 1, 0
-computed velocity: 2, -1
-clamped velocity: 2, -1
-new position: 26, 85
-OK
-#################
-position: 26, 85
-velocity: 2, -1
-computed velocity: 3, -2
-clamped velocity: 3, -2
-new position: 29, 83
-OK
-#################
-position: 29, 83
-velocity: 3, -2
-computed velocity: 4, -3
-clamped velocity: 4, -3
-new position: 33, 80
-OK
-#################
-position: 33, 80
-velocity: 4, -3
-computed velocity: 5, -4
-clamped velocity: 5, -4
-new position: 38, 76
-OK
-#################
-position: 38, 76
-velocity: 5, -4
-computed velocity: 6, -5
-clamped velocity: 6, -5
-new position: 44, 71
-OK
-#################
-position: 44, 71
-velocity: 6, -5
-computed velocity: 7, -6
+position: 58, 69
+velocity: 7, -5
+computed velocity: 8, -6
 clamped velocity: 7, -6
-new position: 51, 65
+new position: 65, 63
 OK
 #################
-position: 51, 65
+position: 65, 63
 velocity: 7, -6
 computed velocity: 6, -7
 clamped velocity: 6, -7
-new position: 57, 58
+new position: 71, 56
 OK
 #################
-position: 57, 58
+position: 71, 56
 velocity: 6, -7
 computed velocity: 5, -8
 clamped velocity: 5, -8
+new position: 76, 48
+OK
+#################
+position: 76, 48
+velocity: 5, -8
+computed velocity: 4, -7
+clamped velocity: 4, -7
+new position: 80, 41
+OK
+#################
+position: 80, 41
+velocity: 4, -7
+computed velocity: 3, -6
+clamped velocity: 3, -6
+new position: 83, 35
+OK
+#################
+position: 83, 35
+velocity: 3, -6
+computed velocity: 2, -5
+clamped velocity: 2, -5
+new position: 85, 30
+OK
+#################
+position: 85, 30
+velocity: 2, -5
+computed velocity: 1, -4
+clamped velocity: 1, -4
+new position: 86, 26
+OK
+#################
+position: 86, 26
+velocity: 1, -4
+computed velocity: 0, -3
+clamped velocity: 0, -3
+new position: 86, 23
+OK
+#################
+position: 86, 23
+velocity: 0, -3
+computed velocity: -1, -2
+clamped velocity: -1, -2
+new position: 85, 21
+OK
+#################
+position: 85, 21
+velocity: -1, -2
+computed velocity: -2, -1
+clamped velocity: -2, -1
+new position: 83, 20
+OK
+#################
+position: 83, 20
+velocity: -2, -1
+computed velocity: -3, 0
+clamped velocity: -3, 0
+new position: 80, 20
+OK
+#################
+position: 80, 20
+velocity: -3, 0
+computed velocity: -4, 1
+clamped velocity: -4, 1
+new position: 76, 21
+OK
+#################
+position: 76, 21
+velocity: -4, 1
+computed velocity: -5, 2
+clamped velocity: -5, 2
+new position: 71, 23
+OK
+#################
+position: 71, 23
+velocity: -5, 2
+computed velocity: -4, 3
+clamped velocity: -4, 3
+new position: 67, 26
+OK
+#################
+position: 67, 26
+velocity: -4, 3
+computed velocity: -3, 4
+clamped velocity: -3, 4
+new position: 64, 30
+OK
+#################
+position: 64, 30
+velocity: -3, 4
+computed velocity: -2, 5
+clamped velocity: -2, 5
+new position: 62, 35
+OK
+#################
+position: 62, 35
+velocity: -2, 5
+computed velocity: -1, 6
+clamped velocity: -1, 6
+new position: 61, 41
+OK
+#################
+position: 61, 41
+velocity: -1, 6
+computed velocity: 0, 5
+clamped velocity: 0, 5
+new position: 61, 46
+OK
+#################
+position: 61, 46
+velocity: 0, 5
+computed velocity: 1, 4
+clamped velocity: 1, 4
 new position: 62, 50
 OK
 #################
 position: 62, 50
-velocity: 5, -8
-computed velocity: 4, -9
-clamped velocity: 4, -9
-new position: 66, 41
-OK
-#################
-position: 66, 41
-velocity: 4, -9
-computed velocity: 3, -10
-clamped velocity: 3, -8
-new position: 69, 33
-OK
-#################
-position: 69, 33
-velocity: 3, -8
-computed velocity: 2, -7
-clamped velocity: 2, -7
-new position: 71, 26
-OK
-#################
-position: 71, 26
-velocity: 2, -7
-computed velocity: 1, -6
-clamped velocity: 1, -6
-new position: 72, 20
-OK
-#################
-position: 72, 20
-velocity: 1, -6
-computed velocity: 0, -5
-clamped velocity: 0, -5
-new position: 72, 15
-OK
-#################
-position: 72, 15
-velocity: 0, -5
-computed velocity: -1, -4
-clamped velocity: -1, -4
-new position: 71, 11
-OK
-#################
-position: 71, 11
-velocity: -1, -4
-computed velocity: -2, -3
-clamped velocity: -2, -3
-new position: 69, 8
-OK
-#################
-position: 69, 8
-velocity: -2, -3
-computed velocity: -3, -2
-clamped velocity: -3, -2
-new position: 66, 6
-OK
-#################
-position: 66, 6
-velocity: -3, -2
-computed velocity: -4, -1
-clamped velocity: -4, -1
-new position: 62, 5
-OK
-#################
-position: 62, 5
-velocity: -4, -1
-computed velocity: -3, 0
-clamped velocity: -3, 0
-new position: 59, 5
-OK
-#################
-position: 59, 5
-velocity: -3, 0
-computed velocity: -2, 1
-clamped velocity: -2, 1
-new position: 57, 6
-OK
-#################
-position: 57, 6
-velocity: -2, 1
-computed velocity: -1, 2
-clamped velocity: -1, 2
-new position: 56, 8
-OK
-#################
-position: 56, 8
-velocity: -1, 2
-computed velocity: 0, 3
-clamped velocity: 0, 3
-new position: 56, 11
-OK
-#################
-position: 56, 11
-velocity: 0, 3
-computed velocity: 0, 4
-clamped velocity: 0, 4
-new position: 56, 15
-OK
-#################
-position: 56, 15
-velocity: 0, 4
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 56, 20
-OK
-#################
-position: 56, 20
-velocity: 0, 5
-computed velocity: 0, 6
-clamped velocity: 0, 6
-new position: 56, 26
-OK
-#################
-position: 56, 26
-velocity: 0, 6
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 56, 31
-CHECKPOINT
-checkpoint: 77, 39 | 3, 3
-target: 56, 30
-#################
-position: 56, 31
-velocity: 0, 5
-computed velocity: 1, 6
-clamped velocity: 1, 6
-new position: 57, 37
-OK
-#################
-position: 57, 37
-velocity: 1, 6
-computed velocity: 2, 5
-clamped velocity: 2, 5
-new position: 59, 42
-OK
-#################
-position: 59, 42
-velocity: 2, 5
-computed velocity: 3, 4
-clamped velocity: 3, 4
-new position: 62, 46
-OK
-#################
-position: 62, 46
-velocity: 3, 4
-computed velocity: 4, 3
-clamped velocity: 4, 3
-new position: 66, 49
-OK
-#################
-position: 66, 49
-velocity: 4, 3
-computed velocity: 5, 2
-clamped velocity: 5, 2
-new position: 71, 51
-OK
-#################
-position: 71, 51
-velocity: 5, 2
-computed velocity: 6, 1
-clamped velocity: 6, 1
-new position: 77, 52
-OK
-#################
-position: 77, 52
-velocity: 6, 1
-computed velocity: 5, 0
-clamped velocity: 5, 0
-new position: 82, 52
-OK
-#################
-position: 82, 52
-velocity: 5, 0
-computed velocity: 4, -1
-clamped velocity: 4, -1
-new position: 86, 51
-OK
-#################
-position: 86, 51
-velocity: 4, -1
-computed velocity: 3, -2
-clamped velocity: 3, -2
-new position: 89, 49
-OK
-#################
-position: 89, 49
-velocity: 3, -2
-computed velocity: 2, -3
-clamped velocity: 2, -3
-new position: 91, 46
-OK
-#################
-position: 91, 46
-velocity: 2, -3
-computed velocity: 1, -4
-clamped velocity: 1, -4
-new position: 92, 42
-OK
-#################
-position: 92, 42
-velocity: 1, -4
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 92, 39
-OK
-#################
-position: 92, 39
-velocity: 0, -3
-computed velocity: -1, -2
-clamped velocity: -1, -2
-new position: 91, 37
-OK
-#################
-position: 91, 37
-velocity: -1, -2
-computed velocity: -2, -1
-clamped velocity: -2, -1
-new position: 89, 36
-OK
-#################
-position: 89, 36
-velocity: -2, -1
-computed velocity: -3, 0
-clamped velocity: -3, 0
-new position: 86, 36
-OK
-#################
-position: 86, 36
-velocity: -3, 0
-computed velocity: -4, 1
-clamped velocity: -4, 1
-new position: 82, 37
-OK
-#################
-position: 82, 37
-velocity: -4, 1
-computed velocity: -3, 2
-clamped velocity: -3, 2
-new position: 79, 39
-CHECKPOINT
-checkpoint: 85, 93 | 3, 5
-target: 79, 39
-#################
-position: 79, 39
-velocity: -3, 2
-computed velocity: -2, 3
-clamped velocity: -2, 3
-new position: 77, 42
-OK
-#################
-position: 77, 42
-velocity: -2, 3
-computed velocity: -1, 4
-clamped velocity: -1, 4
-new position: 76, 46
-OK
-#################
-position: 76, 46
-velocity: -1, 4
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 76, 51
-OK
-#################
-position: 76, 51
-velocity: 0, 5
-computed velocity: 1, 6
-clamped velocity: 1, 6
-new position: 77, 57
-OK
-#################
-position: 77, 57
-velocity: 1, 6
-computed velocity: 2, 7
-clamped velocity: 2, 7
-new position: 79, 64
-OK
-#################
-position: 79, 64
-velocity: 2, 7
-computed velocity: 3, 8
-clamped velocity: 3, 7
-new position: 82, 71
-OK
-#################
-position: 82, 71
-velocity: 3, 7
-computed velocity: 3, 8
-clamped velocity: 3, 6
-new position: 85, 77
-OK
-#################
-position: 85, 77
-velocity: 3, 6
-computed velocity: 2, 7
-clamped velocity: 2, 6
-new position: 87, 83
-OK
-#################
-position: 87, 83
-velocity: 2, 6
-computed velocity: 1, 7
-clamped velocity: 1, 5
-new position: 88, 88
-OK
-#################
-position: 88, 88
-velocity: 1, 5
-computed velocity: 0, 5
-clamped velocity: 0, 4
-new position: 88, 92
-OK
-#################
-position: 88, 92
-velocity: 0, 4
-computed velocity: -1, 3
-clamped velocity: -1, 3
-new position: 87, 95
-CHECKPOINT
-checkpoint: 33, 92 | 4, 1
-target: 87, 93
-#################
-position: 87, 95
-velocity: -1, 3
-computed velocity: -2, 2
-clamped velocity: -2, 2
-new position: 85, 97
-OK
-#################
-position: 85, 97
-velocity: -2, 2
-computed velocity: -3, 1
-clamped velocity: -3, 1
-new position: 82, 98
-OK
-#################
-position: 82, 98
-velocity: -3, 1
-computed velocity: -4, 0
-clamped velocity: -4, 0
-new position: 78, 98
-OK
-#################
-position: 78, 98
-velocity: -4, 0
-computed velocity: -5, -1
-clamped velocity: -5, -1
-new position: 73, 97
-OK
-#################
-position: 73, 97
-velocity: -5, -1
-computed velocity: -6, -2
-clamped velocity: -6, -2
-new position: 67, 95
-OK
-#################
-position: 67, 95
-velocity: -6, -2
-computed velocity: -7, -3
-clamped velocity: -7, -3
-new position: 60, 92
-OK
-#################
-position: 60, 92
-velocity: -7, -3
-computed velocity: -8, -2
-clamped velocity: -8, -2
-new position: 52, 90
-OK
-#################
-position: 52, 90
-velocity: -8, -2
-computed velocity: -9, -1
-clamped velocity: -9, -1
-new position: 43, 89
-OK
-#################
-position: 43, 89
-velocity: -9, -1
-computed velocity: -8, 0
-clamped velocity: -8, 0
-new position: 35, 89
-OK
-#################
-position: 35, 89
-velocity: -8, 0
-computed velocity: -7, 1
-clamped velocity: -7, 1
-new position: 28, 90
-OK
-#################
-position: 28, 90
-velocity: -7, 1
-computed velocity: -6, 2
-clamped velocity: -6, 2
-new position: 22, 92
-OK
-#################
-position: 22, 92
-velocity: -6, 2
-computed velocity: -5, 1
-clamped velocity: -5, 1
-new position: 17, 93
-OK
-#################
-position: 17, 93
-velocity: -5, 1
-computed velocity: -4, 0
-clamped velocity: -4, 0
-new position: 13, 93
-OK
-#################
-position: 13, 93
-velocity: -4, 0
-computed velocity: -3, -1
-clamped velocity: -3, -1
-new position: 10, 92
-OK
-#################
-position: 10, 92
-velocity: -3, -1
-computed velocity: -2, 0
-clamped velocity: -2, 0
-new position: 8, 92
-OK
-#################
-position: 8, 92
-velocity: -2, 0
-computed velocity: -1, 0
-clamped velocity: -1, 0
-new position: 7, 92
-OK
-#################
-position: 7, 92
-velocity: -1, 0
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 7, 92
-OK
-#################
-position: 7, 92
-velocity: 0, 0
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 8, 92
-OK
-#################
-position: 8, 92
-velocity: 1, 0
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 10, 92
-OK
-#################
-position: 10, 92
-velocity: 2, 0
-computed velocity: 3, 0
-clamped velocity: 3, 0
-new position: 13, 92
-OK
-#################
-position: 13, 92
-velocity: 3, 0
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 17, 92
-OK
-#################
-position: 17, 92
-velocity: 4, 0
-computed velocity: 5, 0
-clamped velocity: 5, 0
-new position: 22, 92
-OK
-#################
-position: 22, 92
-velocity: 5, 0
-computed velocity: 6, 0
-clamped velocity: 6, 0
-new position: 28, 92
-OK
-#################
-position: 28, 92
-velocity: 6, 0
-computed velocity: 5, 0
-clamped velocity: 5, 0
-new position: 33, 92
-CHECKPOINT
-checkpoint: 58, 68 | 4, 1
-target: 33, 92
-#################
-position: 33, 92
-velocity: 5, 0
-computed velocity: 6, -1
-clamped velocity: 6, -1
-new position: 39, 91
-OK
-#################
-position: 39, 91
-velocity: 6, -1
-computed velocity: 7, -2
-clamped velocity: 7, -2
-new position: 46, 89
-OK
-#################
-position: 46, 89
-velocity: 7, -2
-computed velocity: 8, -3
-clamped velocity: 8, -3
-new position: 54, 86
-OK
-#################
-position: 54, 86
-velocity: 8, -3
-computed velocity: 7, -4
-clamped velocity: 7, -4
-new position: 61, 82
-OK
-#################
-position: 61, 82
-velocity: 7, -4
-computed velocity: 6, -5
-clamped velocity: 6, -5
-new position: 67, 77
-OK
-#################
-position: 67, 77
-velocity: 6, -5
-computed velocity: 5, -6
-clamped velocity: 5, -6
-new position: 72, 71
-OK
-#################
-position: 72, 71
-velocity: 5, -6
-computed velocity: 4, -5
-clamped velocity: 4, -5
-new position: 76, 66
-OK
-#################
-position: 76, 66
-velocity: 4, -5
-computed velocity: 3, -4
-clamped velocity: 3, -4
-new position: 79, 62
-OK
-#################
-position: 79, 62
-velocity: 3, -4
-computed velocity: 2, -3
-clamped velocity: 2, -3
-new position: 81, 59
-OK
-#################
-position: 81, 59
-velocity: 2, -3
-computed velocity: 1, -2
-clamped velocity: 1, -2
-new position: 82, 57
-OK
-#################
-position: 82, 57
-velocity: 1, -2
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 82, 56
-OK
-#################
-position: 82, 56
-velocity: 0, -1
-computed velocity: -1, 0
-clamped velocity: -1, 0
-new position: 81, 56
-OK
-#################
-position: 81, 56
-velocity: -1, 0
-computed velocity: -2, 1
-clamped velocity: -2, 1
-new position: 79, 57
-OK
-#################
-position: 79, 57
-velocity: -2, 1
-computed velocity: -3, 2
-clamped velocity: -3, 2
-new position: 76, 59
-OK
-#################
-position: 76, 59
-velocity: -3, 2
-computed velocity: -4, 3
-clamped velocity: -4, 3
-new position: 72, 62
-OK
-#################
-position: 72, 62
-velocity: -4, 3
-computed velocity: -5, 4
-clamped velocity: -5, 4
-new position: 67, 66
-OK
-#################
-position: 67, 66
-velocity: -5, 4
-computed velocity: -6, 3
-clamped velocity: -6, 3
-new position: 61, 69
-OK
-#################
-position: 61, 69
-velocity: -6, 3
-computed velocity: -5, 2
-clamped velocity: -5, 2
-new position: 56, 71
-OK
-#################
-position: 56, 71
-velocity: -5, 2
-computed velocity: -4, 1
-clamped velocity: -4, 1
-new position: 52, 72
-OK
-#################
-position: 52, 72
-velocity: -4, 1
-computed velocity: -3, 0
-clamped velocity: -3, 0
-new position: 49, 72
-OK
-#################
-position: 49, 72
-velocity: -3, 0
-computed velocity: -2, -1
-clamped velocity: -2, -1
-new position: 47, 71
-OK
-#################
-position: 47, 71
-velocity: -2, -1
-computed velocity: -1, -2
-clamped velocity: -1, -2
-new position: 46, 69
-OK
-#################
-position: 46, 69
-velocity: -1, -2
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 46, 68
-OK
-#################
-position: 46, 68
-velocity: 0, -1
-computed velocity: 1, 0
-clamped velocity: 1, 0
-new position: 47, 68
-OK
-#################
-position: 47, 68
-velocity: 1, 0
-computed velocity: 2, 0
-clamped velocity: 2, 0
-new position: 49, 68
-OK
-#################
-position: 49, 68
-velocity: 2, 0
-computed velocity: 3, 0
-clamped velocity: 3, 0
-new position: 52, 68
-OK
-#################
-position: 52, 68
-velocity: 3, 0
-computed velocity: 4, 0
-clamped velocity: 4, 0
-new position: 56, 68
-OK
-#################
-position: 56, 68
-velocity: 4, 0
-computed velocity: 3, 0
-clamped velocity: 3, 0
-new position: 59, 68
-CHECKPOINT
-checkpoint: 31, 20 | 2, 2
-target: 58, 68
-#################
-position: 59, 68
-velocity: 3, 0
-computed velocity: 2, -1
-clamped velocity: 2, -1
-new position: 61, 67
-OK
-#################
-position: 61, 67
-velocity: 2, -1
-computed velocity: 1, -2
-clamped velocity: 1, -2
-new position: 62, 65
-OK
-#################
-position: 62, 65
-velocity: 1, -2
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 62, 62
-OK
-#################
-position: 62, 62
-velocity: 0, -3
-computed velocity: -1, -4
-clamped velocity: -1, -4
-new position: 61, 58
-OK
-#################
-position: 61, 58
-velocity: -1, -4
-computed velocity: -2, -5
-clamped velocity: -2, -5
-new position: 59, 53
-OK
-#################
-position: 59, 53
-velocity: -2, -5
-computed velocity: -3, -6
-clamped velocity: -3, -6
-new position: 56, 47
-OK
-#################
-position: 56, 47
-velocity: -3, -6
-computed velocity: -4, -7
-clamped velocity: -4, -7
-new position: 52, 40
-OK
-#################
-position: 52, 40
-velocity: -4, -7
-computed velocity: -5, -8
-clamped velocity: -5, -8
-new position: 47, 32
-OK
-#################
-position: 47, 32
-velocity: -5, -8
-computed velocity: -6, -9
-clamped velocity: -6, -7
-new position: 41, 25
-OK
-#################
-position: 41, 25
-velocity: -6, -7
-computed velocity: -7, -6
-clamped velocity: -7, -6
-new position: 34, 19
-OK
-#################
-position: 34, 19
-velocity: -7, -6
-computed velocity: -6, -5
-clamped velocity: -6, -5
-new position: 28, 14
-OK
-#################
-position: 28, 14
-velocity: -6, -5
-computed velocity: -5, -4
-clamped velocity: -5, -4
-new position: 23, 10
-OK
-#################
-position: 23, 10
-velocity: -5, -4
-computed velocity: -4, -3
-clamped velocity: -4, -3
-new position: 19, 7
-OK
-#################
-position: 19, 7
-velocity: -4, -3
-computed velocity: -3, -2
-clamped velocity: -3, -2
-new position: 16, 5
-OK
-#################
-position: 16, 5
-velocity: -3, -2
-computed velocity: -2, -1
-clamped velocity: -2, -1
-new position: 14, 4
-OK
-#################
-position: 14, 4
-velocity: -2, -1
-computed velocity: -1, 0
-clamped velocity: -1, 0
-new position: 13, 4
-OK
-#################
-position: 13, 4
-velocity: -1, 0
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 13, 5
-OK
-#################
-position: 13, 5
-velocity: 0, 1
-computed velocity: 1, 2
-clamped velocity: 1, 2
-new position: 14, 7
-OK
-#################
-position: 14, 7
-velocity: 1, 2
+velocity: 1, 4
 computed velocity: 2, 3
 clamped velocity: 2, 3
-new position: 16, 10
+new position: 64, 53
 OK
 #################
-position: 16, 10
+position: 64, 53
 velocity: 2, 3
-computed velocity: 3, 4
-clamped velocity: 3, 4
-new position: 19, 14
-OK
-#################
-position: 19, 14
-velocity: 3, 4
-computed velocity: 4, 5
-clamped velocity: 4, 5
-new position: 23, 19
-OK
-#################
-position: 23, 19
-velocity: 4, 5
-computed velocity: 5, 4
-clamped velocity: 5, 4
-new position: 28, 23
-OK
-#################
-position: 28, 23
-velocity: 5, 4
-computed velocity: 4, 3
-clamped velocity: 4, 3
-new position: 32, 26
-OK
-#################
-position: 32, 26
-velocity: 4, 3
 computed velocity: 3, 2
 clamped velocity: 3, 2
-new position: 35, 28
+new position: 67, 55
 OK
 #################
-position: 35, 28
+position: 67, 55
 velocity: 3, 2
 computed velocity: 2, 1
 clamped velocity: 2, 1
-new position: 37, 29
+new position: 69, 56
 OK
 #################
-position: 37, 29
+position: 69, 56
 velocity: 2, 1
 computed velocity: 1, 0
 clamped velocity: 1, 0
-new position: 38, 29
+new position: 70, 56
 OK
 #################
-position: 38, 29
+position: 70, 56
 velocity: 1, 0
 computed velocity: 0, -1
 clamped velocity: 0, -1
-new position: 38, 28
+new position: 70, 55
 OK
 #################
-position: 38, 28
+position: 70, 55
 velocity: 0, -1
-computed velocity: -1, -2
-clamped velocity: -1, -2
-new position: 37, 26
+computed velocity: 0, -2
+clamped velocity: 0, -2
+new position: 70, 53
 OK
 #################
-position: 37, 26
-velocity: -1, -2
-computed velocity: -2, -3
-clamped velocity: -2, -3
-new position: 35, 23
+position: 70, 53
+velocity: 0, -2
+computed velocity: 0, -3
+clamped velocity: 0, -3
+new position: 70, 50
 OK
 #################
-position: 35, 23
-velocity: -2, -3
-computed velocity: -3, -2
-clamped velocity: -3, -2
-new position: 32, 21
-CHECKPOINT
-checkpoint: 75, 7 | 5, 4
-target: 32, 21
-#################
-position: 32, 21
-velocity: -3, -2
-computed velocity: -2, -3
-clamped velocity: -2, -3
-new position: 30, 18
-OK
-#################
-position: 30, 18
-velocity: -2, -3
-computed velocity: -1, -4
-clamped velocity: -1, -4
-new position: 29, 14
-OK
-#################
-position: 29, 14
-velocity: -1, -4
+position: 70, 50
+velocity: 0, -3
 computed velocity: 0, -4
 clamped velocity: 0, -4
-new position: 29, 10
+new position: 70, 46
 OK
 #################
-position: 29, 10
+position: 70, 46
+velocity: 0, -4
+computed velocity: 0, -3
+clamped velocity: 0, -3
+new position: 70, 43
+CHECKPOINT
+checkpoint: 54, 48 | 4, 3
+target: 70, 44
+#################
+position: 70, 43
+velocity: 0, -3
+computed velocity: -1, -2
+clamped velocity: -1, -2
+new position: 69, 41
+OK
+#################
+position: 69, 41
+velocity: -1, -2
+computed velocity: -2, -1
+clamped velocity: -2, -1
+new position: 67, 40
+OK
+#################
+position: 67, 40
+velocity: -2, -1
+computed velocity: -3, 0
+clamped velocity: -3, 0
+new position: 64, 40
+OK
+#################
+position: 64, 40
+velocity: -3, 0
+computed velocity: -4, 1
+clamped velocity: -4, 1
+new position: 60, 41
+OK
+#################
+position: 60, 41
+velocity: -4, 1
+computed velocity: -3, 2
+clamped velocity: -3, 2
+new position: 57, 43
+OK
+#################
+position: 57, 43
+velocity: -3, 2
+computed velocity: -2, 3
+clamped velocity: -2, 3
+new position: 55, 46
+OK
+#################
+position: 55, 46
+velocity: -2, 3
+computed velocity: -1, 2
+clamped velocity: -1, 2
+new position: 54, 48
+CHECKPOINT
+checkpoint: 82, 11 | 2, 1
+target: 55, 48
+#################
+position: 54, 48
+velocity: -1, 2
+computed velocity: 0, 1
+clamped velocity: 0, 1
+new position: 54, 49
+OK
+#################
+position: 54, 49
+velocity: 0, 1
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 55, 49
+OK
+#################
+position: 55, 49
+velocity: 1, 0
+computed velocity: 2, -1
+clamped velocity: 2, -1
+new position: 57, 48
+OK
+#################
+position: 57, 48
+velocity: 2, -1
+computed velocity: 3, -2
+clamped velocity: 3, -2
+new position: 60, 46
+OK
+#################
+position: 60, 46
+velocity: 3, -2
+computed velocity: 4, -3
+clamped velocity: 4, -3
+new position: 64, 43
+OK
+#################
+position: 64, 43
+velocity: 4, -3
+computed velocity: 5, -4
+clamped velocity: 5, -4
+new position: 69, 39
+OK
+#################
+position: 69, 39
+velocity: 5, -4
+computed velocity: 6, -5
+clamped velocity: 5, -5
+new position: 74, 34
+OK
+#################
+position: 74, 34
+velocity: 5, -5
+computed velocity: 6, -6
+clamped velocity: 4, -6
+new position: 78, 28
+OK
+#################
+position: 78, 28
+velocity: 4, -6
+computed velocity: 4, -7
+clamped velocity: 3, -7
+new position: 81, 21
+OK
+#################
+position: 81, 21
+velocity: 3, -7
+computed velocity: 2, -8
+clamped velocity: 2, -6
+new position: 83, 15
+OK
+#################
+position: 83, 15
+velocity: 2, -6
+computed velocity: 1, -5
+clamped velocity: 1, -5
+new position: 84, 10
+OK
+#################
+position: 84, 10
+velocity: 1, -5
+computed velocity: 0, -4
+clamped velocity: 0, -4
+new position: 84, 6
+OK
+#################
+position: 84, 6
+velocity: 0, -4
+computed velocity: -1, -3
+clamped velocity: -1, -3
+new position: 83, 3
+OK
+#################
+position: 83, 3
+velocity: -1, -3
+computed velocity: 0, -2
+clamped velocity: 0, -2
+new position: 83, 1
+OK
+#################
+position: 83, 1
+velocity: 0, -2
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 83, 0
+OK
+#################
+position: 83, 0
+velocity: 0, -1
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 83, 0
+OK
+#################
+position: 83, 0
+velocity: 0, 0
+computed velocity: 0, 1
+clamped velocity: 0, 1
+new position: 83, 1
+OK
+#################
+position: 83, 1
+velocity: 0, 1
+computed velocity: 0, 2
+clamped velocity: 0, 2
+new position: 83, 3
+OK
+#################
+position: 83, 3
+velocity: 0, 2
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 83, 6
+OK
+#################
+position: 83, 6
+velocity: 0, 3
+computed velocity: 0, 4
+clamped velocity: 0, 4
+new position: 83, 10
+OK
+#################
+position: 83, 10
+velocity: 0, 4
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 83, 13
+OK
+#################
+position: 83, 13
+velocity: 0, 3
+computed velocity: 0, 2
+clamped velocity: 0, 2
+new position: 83, 15
+OK
+#################
+position: 83, 15
+velocity: 0, 2
+computed velocity: 0, 1
+clamped velocity: 0, 1
+new position: 83, 16
+OK
+#################
+position: 83, 16
+velocity: 0, 1
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 83, 16
+OK
+#################
+position: 83, 16
+velocity: 0, 0
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 83, 15
+OK
+#################
+position: 83, 15
+velocity: 0, -1
+computed velocity: 0, -2
+clamped velocity: 0, -2
+new position: 83, 13
+OK
+#################
+position: 83, 13
+velocity: 0, -2
+computed velocity: 0, -2
+clamped velocity: 0, -2
+new position: 83, 11
+CHECKPOINT
+checkpoint: 26, 31 | 4, 4
+target: 83, 11
+#################
+position: 83, 11
+velocity: 0, -2
+computed velocity: -1, -1
+clamped velocity: -1, -1
+new position: 82, 10
+OK
+#################
+position: 82, 10
+velocity: -1, -1
+computed velocity: -2, 0
+clamped velocity: -2, 0
+new position: 80, 10
+OK
+#################
+position: 80, 10
+velocity: -2, 0
+computed velocity: -3, 1
+clamped velocity: -3, 1
+new position: 77, 11
+OK
+#################
+position: 77, 11
+velocity: -3, 1
+computed velocity: -4, 2
+clamped velocity: -4, 2
+new position: 73, 13
+OK
+#################
+position: 73, 13
+velocity: -4, 2
+computed velocity: -5, 3
+clamped velocity: -5, 3
+new position: 68, 16
+OK
+#################
+position: 68, 16
+velocity: -5, 3
+computed velocity: -6, 4
+clamped velocity: -6, 4
+new position: 62, 20
+OK
+#################
+position: 62, 20
+velocity: -6, 4
+computed velocity: -7, 5
+clamped velocity: -7, 5
+new position: 55, 25
+OK
+#################
+position: 55, 25
+velocity: -7, 5
+computed velocity: -8, 6
+clamped velocity: -8, 6
+new position: 47, 31
+OK
+#################
+position: 47, 31
+velocity: -8, 6
+computed velocity: -9, 5
+clamped velocity: -9, 5
+new position: 38, 36
+OK
+#################
+position: 38, 36
+velocity: -9, 5
+computed velocity: -9, 4
+clamped velocity: -8, 4
+new position: 30, 40
+OK
+#################
+position: 30, 40
+velocity: -8, 4
+computed velocity: -7, 3
+clamped velocity: -7, 3
+new position: 23, 43
+OK
+#################
+position: 23, 43
+velocity: -7, 3
+computed velocity: -6, 2
+clamped velocity: -6, 2
+new position: 17, 45
+OK
+#################
+position: 17, 45
+velocity: -6, 2
+computed velocity: -5, 1
+clamped velocity: -5, 1
+new position: 12, 46
+OK
+#################
+position: 12, 46
+velocity: -5, 1
+computed velocity: -4, 0
+clamped velocity: -4, 0
+new position: 8, 46
+OK
+#################
+position: 8, 46
+velocity: -4, 0
+computed velocity: -3, -1
+clamped velocity: -3, -1
+new position: 5, 45
+OK
+#################
+position: 5, 45
+velocity: -3, -1
+computed velocity: -2, -2
+clamped velocity: -2, -2
+new position: 3, 43
+OK
+#################
+position: 3, 43
+velocity: -2, -2
+computed velocity: -1, -3
+clamped velocity: -1, -3
+new position: 2, 40
+OK
+#################
+position: 2, 40
+velocity: -1, -3
+computed velocity: 0, -4
+clamped velocity: 0, -4
+new position: 2, 36
+OK
+#################
+position: 2, 36
 velocity: 0, -4
 computed velocity: 1, -3
 clamped velocity: 1, -3
-new position: 30, 7
+new position: 3, 33
 OK
 #################
-position: 30, 7
+position: 3, 33
 velocity: 1, -3
 computed velocity: 2, -2
 clamped velocity: 2, -2
-new position: 32, 5
+new position: 5, 31
 OK
 #################
-position: 32, 5
+position: 5, 31
 velocity: 2, -2
 computed velocity: 3, -1
 clamped velocity: 3, -1
-new position: 35, 4
+new position: 8, 30
 OK
 #################
-position: 35, 4
+position: 8, 30
 velocity: 3, -1
 computed velocity: 4, 0
 clamped velocity: 4, 0
-new position: 39, 4
+new position: 12, 30
 OK
 #################
-position: 39, 4
+position: 12, 30
 velocity: 4, 0
 computed velocity: 5, 1
 clamped velocity: 5, 1
-new position: 44, 5
+new position: 17, 31
 OK
 #################
-position: 44, 5
+position: 17, 31
 velocity: 5, 1
-computed velocity: 6, 2
-clamped velocity: 6, 2
-new position: 50, 7
-OK
-#################
-position: 50, 7
-velocity: 6, 2
-computed velocity: 7, 1
-clamped velocity: 7, 1
-new position: 57, 8
-OK
-#################
-position: 57, 8
-velocity: 7, 1
-computed velocity: 8, 0
-clamped velocity: 8, 0
-new position: 65, 8
-OK
-#################
-position: 65, 8
-velocity: 8, 0
-computed velocity: 9, 0
-clamped velocity: 7, 0
-new position: 72, 8
-OK
-#################
-position: 72, 8
-velocity: 7, 0
 computed velocity: 6, 0
 clamped velocity: 6, 0
-new position: 78, 8
-CHECKPOINT
-checkpoint: 91, 79 | 2, 1
-target: 75, 8
+new position: 23, 31
+OK
 #################
-position: 78, 8
+position: 23, 31
+velocity: 6, 0
+computed velocity: 5, 0
+clamped velocity: 5, 0
+new position: 28, 31
+CHECKPOINT
+checkpoint: 77, 18 | 5, 5
+target: 26, 31
+#################
+position: 28, 31
+velocity: 5, 0
+computed velocity: 6, -1
+clamped velocity: 6, -1
+new position: 34, 30
+OK
+#################
+position: 34, 30
+velocity: 6, -1
+computed velocity: 7, -2
+clamped velocity: 7, -2
+new position: 41, 28
+OK
+#################
+position: 41, 28
+velocity: 7, -2
+computed velocity: 8, -3
+clamped velocity: 8, -3
+new position: 49, 25
+OK
+#################
+position: 49, 25
+velocity: 8, -3
+computed velocity: 9, -3
+clamped velocity: 8, -3
+new position: 57, 22
+OK
+#################
+position: 57, 22
+velocity: 8, -3
+computed velocity: 9, -2
+clamped velocity: 7, -2
+new position: 64, 20
+OK
+#################
+position: 64, 20
+velocity: 7, -2
+computed velocity: 8, -1
+clamped velocity: 6, -1
+new position: 70, 19
+OK
+#################
+position: 70, 19
+velocity: 6, -1
+computed velocity: 7, 0
+clamped velocity: 5, 0
+new position: 75, 19
+OK
+#################
+position: 75, 19
+velocity: 5, 0
+computed velocity: 4, 0
+clamped velocity: 4, 0
+new position: 79, 19
+CHECKPOINT
+checkpoint: 9, 58 | 4, 2
+target: 77, 19
+#################
+position: 79, 19
+velocity: 4, 0
+computed velocity: 3, 1
+clamped velocity: 3, 1
+new position: 82, 20
+OK
+#################
+position: 82, 20
+velocity: 3, 1
+computed velocity: 2, 2
+clamped velocity: 2, 2
+new position: 84, 22
+OK
+#################
+position: 84, 22
+velocity: 2, 2
+computed velocity: 1, 3
+clamped velocity: 1, 3
+new position: 85, 25
+OK
+#################
+position: 85, 25
+velocity: 1, 3
+computed velocity: 0, 4
+clamped velocity: 0, 4
+new position: 85, 29
+OK
+#################
+position: 85, 29
+velocity: 0, 4
+computed velocity: -1, 5
+clamped velocity: -1, 5
+new position: 84, 34
+OK
+#################
+position: 84, 34
+velocity: -1, 5
+computed velocity: -2, 6
+clamped velocity: -2, 6
+new position: 82, 40
+OK
+#################
+position: 82, 40
+velocity: -2, 6
+computed velocity: -3, 7
+clamped velocity: -3, 7
+new position: 79, 47
+OK
+#################
+position: 79, 47
+velocity: -3, 7
+computed velocity: -4, 8
+clamped velocity: -4, 8
+new position: 75, 55
+OK
+#################
+position: 75, 55
+velocity: -4, 8
+computed velocity: -5, 7
+clamped velocity: -5, 7
+new position: 70, 62
+OK
+#################
+position: 70, 62
+velocity: -5, 7
+computed velocity: -6, 6
+clamped velocity: -6, 6
+new position: 64, 68
+OK
+#################
+position: 64, 68
+velocity: -6, 6
+computed velocity: -7, 5
+clamped velocity: -7, 5
+new position: 57, 73
+OK
+#################
+position: 57, 73
+velocity: -7, 5
+computed velocity: -8, 4
+clamped velocity: -8, 4
+new position: 49, 77
+OK
+#################
+position: 49, 77
+velocity: -8, 4
+computed velocity: -9, 3
+clamped velocity: -9, 3
+new position: 40, 80
+OK
+#################
+position: 40, 80
+velocity: -9, 3
+computed velocity: -10, 2
+clamped velocity: -8, 2
+new position: 32, 82
+OK
+#################
+position: 32, 82
+velocity: -8, 2
+computed velocity: -9, 1
+clamped velocity: -7, 1
+new position: 25, 83
+OK
+#################
+position: 25, 83
+velocity: -7, 1
+computed velocity: -8, 0
+clamped velocity: -6, 0
+new position: 19, 83
+OK
+#################
+position: 19, 83
+velocity: -6, 0
+computed velocity: -7, -1
+clamped velocity: -5, -1
+new position: 14, 82
+OK
+#################
+position: 14, 82
+velocity: -5, -1
+computed velocity: -4, -2
+clamped velocity: -4, -2
+new position: 10, 80
+OK
+#################
+position: 10, 80
+velocity: -4, -2
+computed velocity: -3, -3
+clamped velocity: -3, -3
+new position: 7, 77
+OK
+#################
+position: 7, 77
+velocity: -3, -3
+computed velocity: -2, -4
+clamped velocity: -2, -4
+new position: 5, 73
+OK
+#################
+position: 5, 73
+velocity: -2, -4
+computed velocity: -1, -5
+clamped velocity: -1, -5
+new position: 4, 68
+OK
+#################
+position: 4, 68
+velocity: -1, -5
+computed velocity: 0, -6
+clamped velocity: 0, -6
+new position: 4, 62
+OK
+#################
+position: 4, 62
+velocity: 0, -6
+computed velocity: 1, -5
+clamped velocity: 1, -5
+new position: 5, 57
+OK
+#################
+position: 5, 57
+velocity: 1, -5
+computed velocity: 2, -4
+clamped velocity: 2, -4
+new position: 7, 53
+OK
+#################
+position: 7, 53
+velocity: 2, -4
+computed velocity: 2, -3
+clamped velocity: 2, -3
+new position: 9, 50
+OK
+#################
+position: 9, 50
+velocity: 2, -3
+computed velocity: 1, -2
+clamped velocity: 1, -2
+new position: 10, 48
+OK
+#################
+position: 10, 48
+velocity: 1, -2
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 10, 47
+OK
+#################
+position: 10, 47
+velocity: 0, -1
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 10, 47
+OK
+#################
+position: 10, 47
+velocity: 0, 0
+computed velocity: 0, 1
+clamped velocity: 0, 1
+new position: 10, 48
+OK
+#################
+position: 10, 48
+velocity: 0, 1
+computed velocity: 0, 2
+clamped velocity: 0, 2
+new position: 10, 50
+OK
+#################
+position: 10, 50
+velocity: 0, 2
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 10, 53
+OK
+#################
+position: 10, 53
+velocity: 0, 3
+computed velocity: 0, 4
+clamped velocity: 0, 4
+new position: 10, 57
+OK
+#################
+position: 10, 57
+velocity: 0, 4
+computed velocity: 0, 3
+clamped velocity: 0, 3
+new position: 10, 60
+OK
+#################
+position: 10, 60
+velocity: 0, 3
+computed velocity: 0, 2
+clamped velocity: 0, 2
+new position: 10, 62
+OK
+#################
+position: 10, 62
+velocity: 0, 2
+computed velocity: 0, 1
+clamped velocity: 0, 1
+new position: 10, 63
+OK
+#################
+position: 10, 63
+velocity: 0, 1
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 10, 63
+OK
+#################
+position: 10, 63
+velocity: 0, 0
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 10, 62
+OK
+#################
+position: 10, 62
+velocity: 0, -1
+computed velocity: 0, -2
+clamped velocity: 0, -2
+new position: 10, 60
+OK
+#################
+position: 10, 60
+velocity: 0, -2
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 10, 59
+CHECKPOINT
+checkpoint: 46, 79 | 2, 2
+target: 10, 59
+#################
+position: 10, 59
+velocity: 0, -1
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 11, 59
+OK
+#################
+position: 11, 59
+velocity: 1, 0
+computed velocity: 2, 1
+clamped velocity: 2, 1
+new position: 13, 60
+OK
+#################
+position: 13, 60
+velocity: 2, 1
+computed velocity: 3, 2
+clamped velocity: 3, 2
+new position: 16, 62
+OK
+#################
+position: 16, 62
+velocity: 3, 2
+computed velocity: 4, 3
+clamped velocity: 4, 3
+new position: 20, 65
+OK
+#################
+position: 20, 65
+velocity: 4, 3
+computed velocity: 5, 4
+clamped velocity: 5, 4
+new position: 25, 69
+OK
+#################
+position: 25, 69
+velocity: 5, 4
+computed velocity: 6, 5
+clamped velocity: 6, 5
+new position: 31, 74
+OK
+#################
+position: 31, 74
+velocity: 6, 5
+computed velocity: 7, 5
+clamped velocity: 7, 4
+new position: 38, 78
+OK
+#################
+position: 38, 78
+velocity: 7, 4
+computed velocity: 8, 3
+clamped velocity: 8, 3
+new position: 46, 81
+OK
+#################
+position: 46, 81
+velocity: 8, 3
+computed velocity: 7, 2
+clamped velocity: 7, 2
+new position: 53, 83
+OK
+#################
+position: 53, 83
+velocity: 7, 2
+computed velocity: 6, 1
+clamped velocity: 6, 1
+new position: 59, 84
+OK
+#################
+position: 59, 84
+velocity: 6, 1
+computed velocity: 5, 0
+clamped velocity: 5, 0
+new position: 64, 84
+OK
+#################
+position: 64, 84
+velocity: 5, 0
+computed velocity: 4, -1
+clamped velocity: 4, -1
+new position: 68, 83
+OK
+#################
+position: 68, 83
+velocity: 4, -1
+computed velocity: 3, -2
+clamped velocity: 3, -2
+new position: 71, 81
+OK
+#################
+position: 71, 81
+velocity: 3, -2
+computed velocity: 2, -1
+clamped velocity: 2, -1
+new position: 73, 80
+OK
+#################
+position: 73, 80
+velocity: 2, -1
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 74, 80
+OK
+#################
+position: 74, 80
+velocity: 1, 0
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 74, 80
+OK
+#################
+position: 74, 80
+velocity: 0, 0
+computed velocity: -1, 0
+clamped velocity: -1, 0
+new position: 73, 80
+OK
+#################
+position: 73, 80
+velocity: -1, 0
+computed velocity: -2, 0
+clamped velocity: -2, 0
+new position: 71, 80
+OK
+#################
+position: 71, 80
+velocity: -2, 0
+computed velocity: -3, 0
+clamped velocity: -3, 0
+new position: 68, 80
+OK
+#################
+position: 68, 80
+velocity: -3, 0
+computed velocity: -4, 0
+clamped velocity: -4, 0
+new position: 64, 80
+OK
+#################
+position: 64, 80
+velocity: -4, 0
+computed velocity: -5, 0
+clamped velocity: -5, 0
+new position: 59, 80
+OK
+#################
+position: 59, 80
+velocity: -5, 0
+computed velocity: -6, 0
+clamped velocity: -6, 0
+new position: 53, 80
+OK
+#################
+position: 53, 80
+velocity: -6, 0
+computed velocity: -6, 0
+clamped velocity: -6, 0
+new position: 47, 80
+CHECKPOINT
+checkpoint: 79, 45 | 2, 5
+target: 47, 80
+#################
+position: 47, 80
+velocity: -6, 0
+computed velocity: -5, -1
+clamped velocity: -5, -1
+new position: 42, 79
+OK
+#################
+position: 42, 79
+velocity: -5, -1
+computed velocity: -4, -2
+clamped velocity: -4, -2
+new position: 38, 77
+OK
+#################
+position: 38, 77
+velocity: -4, -2
+computed velocity: -3, -3
+clamped velocity: -3, -3
+new position: 35, 74
+OK
+#################
+position: 35, 74
+velocity: -3, -3
+computed velocity: -2, -4
+clamped velocity: -2, -4
+new position: 33, 70
+OK
+#################
+position: 33, 70
+velocity: -2, -4
+computed velocity: -1, -5
+clamped velocity: -1, -5
+new position: 32, 65
+OK
+#################
+position: 32, 65
+velocity: -1, -5
+computed velocity: 0, -6
+clamped velocity: 0, -6
+new position: 32, 59
+OK
+#################
+position: 32, 59
+velocity: 0, -6
+computed velocity: 1, -7
+clamped velocity: 1, -7
+new position: 33, 52
+OK
+#################
+position: 33, 52
+velocity: 1, -7
+computed velocity: 2, -6
+clamped velocity: 2, -6
+new position: 35, 46
+OK
+#################
+position: 35, 46
+velocity: 2, -6
+computed velocity: 3, -5
+clamped velocity: 3, -5
+new position: 38, 41
+OK
+#################
+position: 38, 41
+velocity: 3, -5
+computed velocity: 4, -4
+clamped velocity: 4, -4
+new position: 42, 37
+OK
+#################
+position: 42, 37
+velocity: 4, -4
+computed velocity: 5, -3
+clamped velocity: 5, -3
+new position: 47, 34
+OK
+#################
+position: 47, 34
+velocity: 5, -3
+computed velocity: 6, -2
+clamped velocity: 6, -2
+new position: 53, 32
+OK
+#################
+position: 53, 32
+velocity: 6, -2
+computed velocity: 7, -1
+clamped velocity: 7, -1
+new position: 60, 31
+OK
+#################
+position: 60, 31
+velocity: 7, -1
+computed velocity: 8, 0
+clamped velocity: 6, 0
+new position: 66, 31
+OK
+#################
+position: 66, 31
 velocity: 6, 0
 computed velocity: 7, 1
 clamped velocity: 5, 1
-new position: 83, 9
+new position: 71, 32
 OK
 #################
-position: 83, 9
+position: 71, 32
 velocity: 5, 1
 computed velocity: 6, 2
 clamped velocity: 5, 2
-new position: 88, 11
+new position: 76, 34
 OK
 #################
-position: 88, 11
+position: 76, 34
 velocity: 5, 2
 computed velocity: 4, 3
 clamped velocity: 4, 3
-new position: 92, 14
+new position: 80, 37
 OK
 #################
-position: 92, 14
+position: 80, 37
 velocity: 4, 3
 computed velocity: 3, 4
 clamped velocity: 3, 4
-new position: 95, 18
+new position: 83, 41
 OK
 #################
-position: 95, 18
+position: 83, 41
 velocity: 3, 4
-computed velocity: 2, 5
-clamped velocity: 2, 5
-new position: 97, 23
-OK
-#################
-position: 97, 23
-velocity: 2, 5
-computed velocity: 1, 6
-clamped velocity: 1, 6
-new position: 98, 29
-OK
-#################
-position: 98, 29
-velocity: 1, 6
-computed velocity: 0, 7
-clamped velocity: 0, 7
-new position: 98, 36
-OK
-#################
-position: 98, 36
-velocity: 0, 7
-computed velocity: -1, 8
-clamped velocity: -1, 8
-new position: 97, 44
-OK
-#################
-position: 97, 44
-velocity: -1, 8
-computed velocity: -2, 9
-clamped velocity: -2, 9
-new position: 95, 53
-OK
-#################
-position: 95, 53
-velocity: -2, 9
-computed velocity: -3, 10
-clamped velocity: -3, 9
-new position: 92, 62
-OK
-#################
-position: 92, 62
-velocity: -3, 9
-computed velocity: -2, 10
-clamped velocity: -2, 8
-new position: 90, 70
-OK
-#################
-position: 90, 70
-velocity: -2, 8
-computed velocity: -1, 9
-clamped velocity: -1, 7
-new position: 89, 77
-OK
-#################
-position: 89, 77
-velocity: -1, 7
-computed velocity: 0, 6
-clamped velocity: 0, 6
-new position: 89, 83
-OK
-#################
-position: 89, 83
-velocity: 0, 6
-computed velocity: 1, 5
-clamped velocity: 1, 5
-new position: 90, 88
-OK
-#################
-position: 90, 88
-velocity: 1, 5
-computed velocity: 1, 4
-clamped velocity: 1, 4
-new position: 91, 92
-OK
-#################
-position: 91, 92
-velocity: 1, 4
-computed velocity: 0, 3
-clamped velocity: 0, 3
-new position: 91, 95
-OK
-#################
-position: 91, 95
-velocity: 0, 3
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 91, 97
-OK
-#################
-position: 91, 97
-velocity: 0, 2
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 91, 98
-OK
-#################
-position: 91, 98
-velocity: 0, 1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 91, 98
-OK
-#################
-position: 91, 98
-velocity: 0, 0
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 91, 97
-OK
-#################
-position: 91, 97
-velocity: 0, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 91, 95
-OK
-#################
-position: 91, 95
-velocity: 0, -2
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 91, 92
-OK
-#################
-position: 91, 92
-velocity: 0, -3
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 91, 88
-OK
-#################
-position: 91, 88
-velocity: 0, -4
-computed velocity: 0, -5
-clamped velocity: 0, -5
-new position: 91, 83
-OK
-#################
-position: 91, 83
-velocity: 0, -5
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 91, 79
-CHECKPOINT
-checkpoint: 1, 22 | 2, 3
-target: 91, 79
-#################
-position: 91, 79
-velocity: 0, -4
-computed velocity: -1, -5
-clamped velocity: -1, -5
-new position: 90, 74
-OK
-#################
-position: 90, 74
-velocity: -1, -5
-computed velocity: -2, -6
-clamped velocity: -2, -6
-new position: 88, 68
-OK
-#################
-position: 88, 68
-velocity: -2, -6
-computed velocity: -3, -7
-clamped velocity: -3, -7
-new position: 85, 61
-OK
-#################
-position: 85, 61
-velocity: -3, -7
-computed velocity: -4, -8
-clamped velocity: -4, -8
-new position: 81, 53
-OK
-#################
-position: 81, 53
-velocity: -4, -8
-computed velocity: -5, -9
-clamped velocity: -5, -9
-new position: 76, 44
-OK
-#################
-position: 76, 44
-velocity: -5, -9
-computed velocity: -6, -10
-clamped velocity: -6, -8
-new position: 70, 36
-OK
-#################
-position: 70, 36
-velocity: -6, -8
-computed velocity: -7, -9
-clamped velocity: -7, -8
-new position: 63, 28
-OK
-#################
-position: 63, 28
-velocity: -7, -8
-computed velocity: -8, -7
-clamped velocity: -8, -7
-new position: 55, 21
-OK
-#################
-position: 55, 21
-velocity: -8, -7
-computed velocity: -9, -6
-clamped velocity: -9, -6
-new position: 46, 15
-OK
-#################
-position: 46, 15
-velocity: -9, -6
-computed velocity: -10, -5
-clamped velocity: -9, -5
-new position: 37, 10
-OK
-#################
-position: 37, 10
-velocity: -9, -5
-computed velocity: -10, -4
-clamped velocity: -8, -4
-new position: 29, 6
-OK
-#################
-position: 29, 6
-velocity: -8, -4
-computed velocity: -9, -3
-clamped velocity: -7, -3
-new position: 22, 3
-OK
-#################
-position: 22, 3
-velocity: -7, -3
-computed velocity: -8, -2
-clamped velocity: -6, -2
-new position: 16, 1
-OK
-#################
-position: 16, 1
-velocity: -6, -2
-computed velocity: -7, -1
-clamped velocity: -5, -1
-new position: 11, 0
-OK
-#################
-position: 11, 0
-velocity: -5, -1
-computed velocity: -6, 0
-clamped velocity: -4, 0
-new position: 7, 0
-OK
-#################
-position: 7, 0
-velocity: -4, 0
-computed velocity: -5, 1
-clamped velocity: -3, 1
-new position: 4, 1
-OK
-#################
-position: 4, 1
-velocity: -3, 1
-computed velocity: -2, 2
-clamped velocity: -2, 2
-new position: 2, 3
-OK
-#################
-position: 2, 3
-velocity: -2, 2
-computed velocity: -1, 3
-clamped velocity: -1, 3
-new position: 1, 6
-OK
-#################
-position: 1, 6
-velocity: -1, 3
-computed velocity: 0, 4
-clamped velocity: 0, 4
-new position: 1, 10
-OK
-#################
-position: 1, 10
-velocity: 0, 4
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 1, 15
-OK
-#################
-position: 1, 15
-velocity: 0, 5
-computed velocity: 0, 6
-clamped velocity: 0, 6
-new position: 1, 21
-OK
-#################
-position: 1, 21
-velocity: 0, 6
-computed velocity: 0, 5
-clamped velocity: 0, 5
-new position: 1, 26
-OK
-#################
-position: 1, 26
-velocity: 0, 5
-computed velocity: 0, 4
-clamped velocity: 0, 4
-new position: 1, 30
-OK
-#################
-position: 1, 30
-velocity: 0, 4
-computed velocity: 0, 3
-clamped velocity: 0, 3
-new position: 1, 33
-OK
-#################
-position: 1, 33
-velocity: 0, 3
-computed velocity: 0, 2
-clamped velocity: 0, 2
-new position: 1, 35
-OK
-#################
-position: 1, 35
-velocity: 0, 2
-computed velocity: 0, 1
-clamped velocity: 0, 1
-new position: 1, 36
-OK
-#################
-position: 1, 36
-velocity: 0, 1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 1, 36
-OK
-#################
-position: 1, 36
-velocity: 0, 0
-computed velocity: 0, -1
-clamped velocity: 0, -1
-new position: 1, 35
-OK
-#################
-position: 1, 35
-velocity: 0, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 1, 33
-OK
-#################
-position: 1, 33
-velocity: 0, -2
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 1, 30
-OK
-#################
-position: 1, 30
-velocity: 0, -3
-computed velocity: 0, -4
-clamped velocity: 0, -4
-new position: 1, 26
-OK
-#################
-position: 1, 26
-velocity: 0, -4
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 1, 23
-CHECKPOINT
-checkpoint: 51, 72 | 5, 1
-target: 1, 24
-#################
-position: 1, 23
-velocity: 0, -3
-computed velocity: 1, -2
-clamped velocity: 1, -2
-new position: 2, 21
-OK
-#################
-position: 2, 21
-velocity: 1, -2
-computed velocity: 2, -1
-clamped velocity: 2, -1
-new position: 4, 20
-OK
-#################
-position: 4, 20
-velocity: 2, -1
-computed velocity: 3, 0
-clamped velocity: 3, 0
-new position: 7, 20
-OK
-#################
-position: 7, 20
-velocity: 3, 0
-computed velocity: 4, 1
-clamped velocity: 4, 1
-new position: 11, 21
-OK
-#################
-position: 11, 21
-velocity: 4, 1
-computed velocity: 5, 2
-clamped velocity: 5, 2
-new position: 16, 23
-OK
-#################
-position: 16, 23
-velocity: 5, 2
-computed velocity: 6, 3
-clamped velocity: 6, 3
-new position: 22, 26
-OK
-#################
-position: 22, 26
-velocity: 6, 3
-computed velocity: 7, 4
-clamped velocity: 7, 4
-new position: 29, 30
-OK
-#################
-position: 29, 30
-velocity: 7, 4
-computed velocity: 8, 5
-clamped velocity: 8, 5
-new position: 37, 35
-OK
-#################
-position: 37, 35
-velocity: 8, 5
-computed velocity: 9, 6
-clamped velocity: 9, 6
-new position: 46, 41
-OK
-#################
-position: 46, 41
-velocity: 9, 6
-computed velocity: 8, 7
-clamped velocity: 8, 7
-new position: 54, 48
-OK
-#################
-position: 54, 48
-velocity: 8, 7
-computed velocity: 7, 8
-clamped velocity: 7, 8
-new position: 61, 56
-OK
-#################
-position: 61, 56
-velocity: 7, 8
-computed velocity: 6, 9
-clamped velocity: 6, 8
-new position: 67, 64
-OK
-#################
-position: 67, 64
-velocity: 6, 8
-computed velocity: 5, 8
-clamped velocity: 5, 7
-new position: 72, 71
-OK
-#################
-position: 72, 71
-velocity: 5, 7
-computed velocity: 4, 6
-clamped velocity: 4, 6
-new position: 76, 77
-OK
-#################
-position: 76, 77
-velocity: 4, 6
-computed velocity: 3, 5
-clamped velocity: 3, 5
-new position: 79, 82
-OK
-#################
-position: 79, 82
-velocity: 3, 5
 computed velocity: 2, 4
 clamped velocity: 2, 4
-new position: 81, 86
+new position: 85, 45
 OK
 #################
-position: 81, 86
+position: 85, 45
 velocity: 2, 4
 computed velocity: 1, 3
 clamped velocity: 1, 3
-new position: 82, 89
+new position: 86, 48
 OK
 #################
-position: 82, 89
+position: 86, 48
 velocity: 1, 3
 computed velocity: 0, 2
 clamped velocity: 0, 2
-new position: 82, 91
+new position: 86, 50
 OK
 #################
-position: 82, 91
+position: 86, 50
 velocity: 0, 2
 computed velocity: -1, 1
 clamped velocity: -1, 1
-new position: 81, 92
+new position: 85, 51
 OK
 #################
-position: 81, 92
+position: 85, 51
 velocity: -1, 1
 computed velocity: -2, 0
 clamped velocity: -2, 0
-new position: 79, 92
+new position: 83, 51
 OK
 #################
-position: 79, 92
+position: 83, 51
 velocity: -2, 0
 computed velocity: -3, -1
 clamped velocity: -3, -1
-new position: 76, 91
+new position: 80, 50
 OK
 #################
-position: 76, 91
+position: 80, 50
 velocity: -3, -1
-computed velocity: -4, -2
-clamped velocity: -4, -2
-new position: 72, 89
+computed velocity: -2, -1
+clamped velocity: -2, -1
+new position: 78, 49
 OK
 #################
-position: 72, 89
-velocity: -4, -2
-computed velocity: -5, -3
-clamped velocity: -5, -3
-new position: 67, 86
+position: 78, 49
+velocity: -2, -1
+computed velocity: -1, 0
+clamped velocity: -1, 0
+new position: 77, 49
 OK
 #################
-position: 67, 86
-velocity: -5, -3
-computed velocity: -6, -4
-clamped velocity: -6, -4
-new position: 61, 82
+position: 77, 49
+velocity: -1, 0
+computed velocity: 0, 0
+clamped velocity: 0, 0
+new position: 77, 49
 OK
 #################
-position: 61, 82
-velocity: -6, -4
-computed velocity: -6, -5
-clamped velocity: -6, -5
-new position: 55, 77
+position: 77, 49
+velocity: 0, 0
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 78, 49
 OK
 #################
-position: 55, 77
-velocity: -6, -5
+position: 78, 49
+velocity: 1, 0
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 79, 49
+CHECKPOINT
+checkpoint: 27, 27 | 5, 3
+target: 79, 49
+#################
+position: 79, 49
+velocity: 1, 0
+computed velocity: 0, -1
+clamped velocity: 0, -1
+new position: 79, 48
+OK
+#################
+position: 79, 48
+velocity: 0, -1
+computed velocity: -1, -2
+clamped velocity: -1, -2
+new position: 78, 46
+OK
+#################
+position: 78, 46
+velocity: -1, -2
+computed velocity: -2, -3
+clamped velocity: -2, -3
+new position: 76, 43
+OK
+#################
+position: 76, 43
+velocity: -2, -3
+computed velocity: -3, -4
+clamped velocity: -3, -4
+new position: 73, 39
+OK
+#################
+position: 73, 39
+velocity: -3, -4
+computed velocity: -4, -5
+clamped velocity: -4, -5
+new position: 69, 34
+OK
+#################
+position: 69, 34
+velocity: -4, -5
 computed velocity: -5, -5
 clamped velocity: -5, -5
-new position: 50, 72
+new position: 64, 29
 OK
 #################
-position: 50, 72
+position: 64, 29
 velocity: -5, -5
-computed velocity: -4, -4
-clamped velocity: -4, -4
-new position: 46, 68
+computed velocity: -6, -4
+clamped velocity: -6, -4
+new position: 58, 25
 OK
 #################
-position: 46, 68
-velocity: -4, -4
-computed velocity: -3, -3
-clamped velocity: -3, -3
-new position: 43, 65
+position: 58, 25
+velocity: -6, -4
+computed velocity: -7, -3
+clamped velocity: -7, -3
+new position: 51, 22
 OK
 #################
-position: 43, 65
-velocity: -3, -3
-computed velocity: -2, -2
-clamped velocity: -2, -2
-new position: 41, 63
+position: 51, 22
+velocity: -7, -3
+computed velocity: -8, -2
+clamped velocity: -8, -2
+new position: 43, 20
 OK
 #################
-position: 41, 63
-velocity: -2, -2
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 40, 62
+position: 43, 20
+velocity: -8, -2
+computed velocity: -9, -1
+clamped velocity: -8, -1
+new position: 35, 19
 OK
 #################
-position: 40, 62
-velocity: -1, -1
+position: 35, 19
+velocity: -8, -1
+computed velocity: -7, 0
+clamped velocity: -7, 0
+new position: 28, 19
+OK
+#################
+position: 28, 19
+velocity: -7, 0
+computed velocity: -6, 1
+clamped velocity: -6, 1
+new position: 22, 20
+OK
+#################
+position: 22, 20
+velocity: -6, 1
+computed velocity: -5, 2
+clamped velocity: -5, 2
+new position: 17, 22
+OK
+#################
+position: 17, 22
+velocity: -5, 2
+computed velocity: -4, 3
+clamped velocity: -4, 3
+new position: 13, 25
+OK
+#################
+position: 13, 25
+velocity: -4, 3
+computed velocity: -3, 2
+clamped velocity: -3, 2
+new position: 10, 27
+OK
+#################
+position: 10, 27
+velocity: -3, 2
+computed velocity: -2, 1
+clamped velocity: -2, 1
+new position: 8, 28
+OK
+#################
+position: 8, 28
+velocity: -2, 1
+computed velocity: -1, 0
+clamped velocity: -1, 0
+new position: 7, 28
+OK
+#################
+position: 7, 28
+velocity: -1, 0
 computed velocity: 0, 0
 clamped velocity: 0, 0
-new position: 40, 62
+new position: 7, 28
 OK
 #################
-position: 40, 62
+position: 7, 28
 velocity: 0, 0
-computed velocity: 1, 1
-clamped velocity: 1, 1
-new position: 41, 63
+computed velocity: 1, 0
+clamped velocity: 1, 0
+new position: 8, 28
 OK
 #################
-position: 41, 63
-velocity: 1, 1
-computed velocity: 2, 2
-clamped velocity: 2, 2
-new position: 43, 65
+position: 8, 28
+velocity: 1, 0
+computed velocity: 2, 0
+clamped velocity: 2, 0
+new position: 10, 28
 OK
 #################
-position: 43, 65
-velocity: 2, 2
-computed velocity: 3, 3
-clamped velocity: 3, 3
-new position: 46, 68
+position: 10, 28
+velocity: 2, 0
+computed velocity: 3, 0
+clamped velocity: 3, 0
+new position: 13, 28
 OK
 #################
-position: 46, 68
-velocity: 3, 3
-computed velocity: 4, 4
-clamped velocity: 4, 4
-new position: 50, 72
+position: 13, 28
+velocity: 3, 0
+computed velocity: 4, 0
+clamped velocity: 4, 0
+new position: 17, 28
 OK
 #################
-position: 50, 72
-velocity: 4, 4
-computed velocity: 3, 3
-clamped velocity: 3, 3
-new position: 53, 75
+position: 17, 28
+velocity: 4, 0
+computed velocity: 5, 0
+clamped velocity: 5, 0
+new position: 22, 28
 OK
 #################
-position: 53, 75
-velocity: 3, 3
-computed velocity: 2, 2
-clamped velocity: 2, 2
-new position: 55, 77
-OK
-#################
-position: 55, 77
-velocity: 2, 2
-computed velocity: 1, 1
-clamped velocity: 1, 1
-new position: 56, 78
-OK
-#################
-position: 56, 78
-velocity: 1, 1
-computed velocity: 0, 0
-clamped velocity: 0, 0
-new position: 56, 78
-OK
-#################
-position: 56, 78
-velocity: 0, 0
-computed velocity: -1, -1
-clamped velocity: -1, -1
-new position: 55, 77
-OK
-#################
-position: 55, 77
-velocity: -1, -1
-computed velocity: 0, -2
-clamped velocity: 0, -2
-new position: 55, 75
-OK
-#################
-position: 55, 75
-velocity: 0, -2
-computed velocity: 0, -3
-clamped velocity: 0, -3
-new position: 55, 72
+position: 22, 28
+velocity: 5, 0
+computed velocity: 5, 0
+clamped velocity: 5, 0
+new position: 27, 28
 FINISH

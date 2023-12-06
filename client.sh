@@ -1,2 +1,2 @@
 #! /bin/sh
-valgrind --leak-check=full -s ./cmake-build-debug/RaceProject
+valgrind --leak-check=full ./cmake-build-debug/RaceProject
