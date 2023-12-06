@@ -107,3 +107,6 @@ void game_instance_tick(struct GameInstance *self) {
 }
 
 // Cool seed: 1114082393
+// Another cool seed: 2849285029
+// Third cool seed: 422580649
+// Big map: 2937334609
