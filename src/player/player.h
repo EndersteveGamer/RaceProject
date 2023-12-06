@@ -16,6 +16,12 @@ struct Player {
 struct Player *player_create(size_t startingX, size_t startingY);
 
 /**
+ * Destroys a player by freeing its memory
+ * @param self The player to destroy
+ */
+void player_destroy(struct Player *self);
+
+/**
  * Moves the player by applying its velocity
  * @param self The player to move
  */

@@ -8,11 +8,13 @@
 // A multiplier for braking earlier than normal
 #define BRAKE_MULT 1.4
 
+// The speed at which the braking to avoid jumping target deactivates (to prevent the player from being stuck with 0 speed)
+#define TARGET_JUMP_SAFETY 2
+
 void game_instance_destroy(struct GameInstance *self) {
-    free(self->player);
+    player_destroy(self->player);
     game_area_destroy(self->gameArea);
     target_destroy(self->target);
-    free(self);
 }
 
 /**
@@ -23,6 +25,17 @@ void game_instance_destroy(struct GameInstance *self) {
 int sum(int n) {return (n * (n + 1)) / 2;}
 
 /**
+ * Returns the sum of i from m to n
+ * @param m m
+ * @param n n
+ * @return The sum of i from m to n
+ */
+int sum_from(int m, int n) {
+    if (m > n) {int temp = n; n = m; m = temp;}
+    int sum = m; for (int i = m + 1; i <= n; i++) sum += i; return sum;
+}
+
+/**
  * Checks if the player can accelerate in this axis without hitting the wall
  * @param self The game instance
  * @param x_axis true if the axis is the x axis, false if the axis is the y axis
@@ -30,11 +43,31 @@ int sum(int n) {return (n * (n + 1)) / 2;}
  */
 bool can_accelerate(struct GameInstance *self, bool x_axis) {
     int pos = x_axis ? self->player->position->x : self->player->position->y;
-    int sped = x_axis ? self->player->velocity->x : self->player->velocity->y;
-    if (sped != 0) sped += (sped > 0 ? 1 : -1);
-    if (sped == 0) return true;
-    if (sped > 0) return pos + sum(sped) < self->gameArea->width;
-    return pos - sum(-sped) >= 0;
+    int speed = x_axis ? self->player->velocity->x : self->player->velocity->y;
+    if (speed != 0) speed += (speed > 0 ? 1 : -1);
+    if (speed == 0) return true;
+    if (speed > 0) return pos + sum(speed) < self->gameArea->width;
+    return pos - sum(-speed) >= 0;
+}
+
+/**
+ * Checks the player can accelerate without having its speed exceed the target width (to avoid jumping over the target)
+ * @param self The game instance
+ * @param x_axis true if the axis checked is the x axis, false otherwise
+ * @return true if the player can accelerate, false otherwise
+ */
+bool can_accelerate_target(struct GameInstance *self, bool x_axis) {
+    int targetPos = x_axis ? self->target->position->x : self->target->position->y;
+    int targetSize = x_axis ? self->target->size->x : self->target->size->y;
+    targetSize--;
+    int selfPos = x_axis ? self->player->position->x : self->player->position->y;
+    int speed = x_axis ? self->player->velocity->x : self->player->velocity->y;
+    if ((targetPos < selfPos && speed > 0) || (targetPos > selfPos && speed < 0)) return true;
+    speed > 0 ? speed-- : speed++;
+    if ((speed > 0 ? speed : -speed) < TARGET_JUMP_SAFETY) return true;
+    if (speed < 0) return selfPos - sum_from(targetSize, speed) > targetPos;
+    else if (speed > 0) return selfPos + sum_from(targetSize, speed) < targetPos;
+    else return true;
 }
 
 /**
@@ -87,13 +120,13 @@ void change_velocity(struct GameInstance *self) {
     vec_add(player->position, &futureVelocity, &futurePos);
     struct Vector targetDirection;
     vec_substract(&closest, &futurePos, &targetDirection);
-    if (!can_accelerate(self, true)) {
+    if (!can_accelerate(self, true) || !can_accelerate_target(self, true)) {
         player->velocity->x += player->velocity->x == 0 ? 0 : (player->velocity->x > 0 ? -1 : 1);
     } else {
         if (player->velocity->x > targetDirection.x) player->velocity->x--;
         else if (player->velocity->x < targetDirection.x) player->velocity->x++;
     }
-    if (!can_accelerate(self, false)) {
+    if (!can_accelerate(self, false) || !can_accelerate_target(self, false)) {
         player->velocity->y += player->velocity->y == 0 ? 0 : (player->velocity->y > 0 ? -1 : 1);
     } else {
         if (player->velocity->y > targetDirection.y) player->velocity->y--;
