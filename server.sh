@@ -1,0 +1,1 @@
+./race-server ./race-hi ./race-mid ./RaceProjectv1 ./cmake-build-debug/RaceProject
