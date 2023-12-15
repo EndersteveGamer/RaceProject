@@ -79,10 +79,10 @@ void get_closest_target_tile(const struct GameInstance *self, struct Vector *til
  * @param x_axis true if the axis is the x axis, false if the axis is the y axis
  * @return true if the player can accelerate, false otherwise
  */
-bool can_accelerate(struct GameInstance *self, bool x_axis) {
+bool can_accelerate(struct GameInstance *self, bool x_axis, bool accelerate) {
     int pos = x_axis ? self->player->position->x : self->player->position->y;
     int speed = x_axis ? self->player->velocity->x : self->player->velocity->y;
-    if (speed != 0) speed += (speed > 0 ? 1 : -1);
+    if (speed != 0 && accelerate) speed += (speed > 0 ? 1 : -1);
     if (speed == 0) return true;
     if (speed > 0) return pos + sum(speed) < self->gameArea->width;
     return pos - sum(-speed) >= 0;
@@ -94,16 +94,34 @@ bool can_accelerate(struct GameInstance *self, bool x_axis) {
  * @param x_axis true if the axis checked is the x axis, false otherwise
  * @return true if the player can accelerate, false otherwise
  */
-bool can_accelerate_target(struct GameInstance *self, bool x_axis) {
+bool can_accelerate_target(struct GameInstance *self, bool x_axis, bool accelerate) {
     int pos = x_axis ? self->player->position->x : self->player->position->y;
     int speed = x_axis ? self->player->velocity->x : self->player->velocity->y;
     int targetWidth = x_axis ? self->target->size->x : self->target->size->y;
     int targetPos = x_axis ? self->target->position->x : self->target->position->y;
-    if (speed != 0) speed += (speed > 0 ? 1 : -1);
+    if (speed != 0 && accelerate) speed += (speed > 0 ? 1 : -1);
     if (speed == 0) return true;
     if ((speed >= 0 ? speed : -speed) <= BRAKE_SAFETY) return true;
     if (speed > 0) return pos + sum_from(targetWidth, speed) < targetPos + targetWidth;
     return pos - sum_from(-speed, -targetWidth) >= targetPos;
+}
+
+/**
+ * Brakes if necessary (if there is a risk of crossing the map border or missing the target)\n
+ * If braking was necessary, true is returned
+ * @param self The game instance
+ * @param x_axis true if the axis considered is the x axis, false otherwise
+ * @return true if braking was necessary (braking was done, no further action is required),
+ * false otherwise (moving to the target is required)
+ */
+bool brake_if_necessary(struct GameInstance *self, bool x_axis) {
+    struct Player *player = self->player;
+    if (!can_accelerate(self, x_axis, true) || !can_accelerate_target(self, x_axis, true)) {
+        if (x_axis) player->velocity->x += player->velocity->x == 0 ? 0 : (player->velocity->x > 0 ? -1 : 1);
+        else player->velocity->y += player->velocity->y == 0 ? 0 : (player->velocity->y > 0 ? -1 : 1);
+        return true;
+    }
+    return !can_accelerate(self, x_axis, false) || !can_accelerate_target(self, x_axis, false);
 }
 
 void change_velocity(struct GameInstance *self) {
@@ -117,15 +135,11 @@ void change_velocity(struct GameInstance *self) {
     vec_add(player->position, &futureVelocity, &futurePos);
     struct Vector targetDirection;
     vec_substract(&closest, &futurePos, &targetDirection);
-    if (!can_accelerate(self, true) || !can_accelerate_target(self, true)) {
-        player->velocity->x += player->velocity->x == 0 ? 0 : (player->velocity->x > 0 ? -1 : 1);
-    } else {
+    if (!brake_if_necessary(self, true)) {
         if (player->velocity->x > targetDirection.x) player->velocity->x--;
         else if (player->velocity->x < targetDirection.x) player->velocity->x++;
     }
-    if (!can_accelerate(self, false) || !can_accelerate_target(self, false)) {
-        player->velocity->y += player->velocity->y == 0 ? 0 : (player->velocity->y > 0 ? -1 : 1);
-    } else {
+    if (!brake_if_necessary(self, false)) {
         if (player->velocity->y > targetDirection.y) player->velocity->y--;
         else if (player->velocity->y < targetDirection.y) player->velocity->y++;
     }
