@@ -95,6 +95,7 @@ CMakeFiles/RaceProject.dir/src/game_instance/game_instance.c.o: ../src/game_inst
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/include/assert.h \
   ../src/game_instance/game_instance.h \
   ../src/player/player.h \
   ../src/target/target.h \
@@ -306,8 +307,26 @@ CMakeFiles/RaceProject.dir/src/vector/vector.c.o: ../src/vector/vector.c \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   ../src/vector/vector.h
 
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/math.h:
 
 ../src/vector/vector.c:
 
@@ -335,17 +354,25 @@ CMakeFiles/RaceProject.dir/src/vector/vector.c.o: ../src/vector/vector.c \
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 ../src/game_area/game_area.c:
 
@@ -381,6 +408,8 @@ CMakeFiles/RaceProject.dir/src/vector/vector.c.o: ../src/vector/vector.c \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -398,10 +427,6 @@ CMakeFiles/RaceProject.dir/src/vector/vector.c.o: ../src/vector/vector.c \
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -426,6 +451,8 @@ CMakeFiles/RaceProject.dir/src/vector/vector.c.o: ../src/vector/vector.c \
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 ../src/game_instance/game_instance.c:
+
+/usr/include/assert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 

@@ -14,3 +14,4 @@ add_executable(RaceProject src/main.c
         src/game_instance/game_instance.c
         src/vector/vector.h
         src/vector/vector.c)
+target_link_libraries(RaceProject PRIVATE m)

@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <math.h>
 #include "vector.h"
 
 struct Vector *vec_create(int x, int y) {
@@ -25,4 +26,8 @@ void vec_mult(struct Vector *self, double multiplier) {
 
 void vec_copy(struct Vector *src, struct Vector *dest) {
     dest->x = src->x; dest->y = src->y;
+}
+
+float vec_distance(const struct Vector *vec1, const struct Vector *vec2) {
+    return sqrtf((float)((vec1->x - vec2->x) * (vec1->x - vec2->x) + (vec1->y - vec2->y) * (vec1->y - vec2->y)));
 }

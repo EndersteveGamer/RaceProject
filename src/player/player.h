@@ -4,7 +4,6 @@
 struct Player {
     struct Vector *position;
     struct Vector *velocity;
-    int score;
 };
 
 /**

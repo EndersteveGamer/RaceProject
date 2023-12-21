@@ -5,9 +5,15 @@
 #include "../target/target.h"
 #include "../game_area/game_area.h"
 
-// A multiplier for braking earlier than normal
+/* A multiplier for braking earlier than normal. When calculating the player position, the player velocity is added
+ * BRAKE_MULT times. With this, the player starts braking earlier when approaching the target, as it is considered as
+ * behind the target when it is not already
+ */
 #define BRAKE_MULT 1.4
 
+/* Used in the can_accelerate_target function. If the player speed is lower than this value, the player is allowed
+ * to accelerate. This is used to prevent the player to be stuck with 0 velocity
+ */
 #define BRAKE_SAFETY 3
 
 void game_instance_destroy(struct GameInstance *self) {
@@ -30,10 +36,61 @@ int sum(int n) {return (n * (n + 1)) / 2;}
  * @return The sum of i from m to n
  */
 int sum_from(int m, int n) {
+    // Make n the highest value between m and n
     if (m > n) {int temp = n; n = m; m = temp;}
-    int sum = m; for (int i = m + 1; i <= n; i++) sum += i; return sum;
+    // Calculate the sum
+    return sum(n) - sum(m - 1);
 }
 
+/**
+ * Checks if a position is in the target
+ * @param self The game instance
+ * @param pos The position to check
+ * @return true if the position is in the target, false otherwise
+ */
+bool is_in_target(const struct GameInstance *self, const struct Vector *pos) {
+    const struct Vector *targetPos = self->target->position;
+    const struct Vector *size = self->target->size;
+    return (pos->x >= targetPos->x && pos->x < targetPos->x + size->x)
+        && (pos->y >= targetPos->y && pos->y < targetPos->y + size->y);
+}
+
+/**
+ * If the next tile is in the target, change the velocity to choose the tile with the lowest score
+ * @param self The game instance
+ * @return true if the target was approached (no further action is necessary), false otherwise
+ */
+bool approach_target(struct GameInstance *self) {
+    struct Vector nextTile;
+    vec_copy(self->player->position, &nextTile);
+    vec_add(&nextTile, self->player->velocity, &nextTile);
+    if (!is_in_target(self, &nextTile)) return false;
+    struct Vector selectedMove;
+    selectedMove.x = selectedMove.y = 0;
+    for (int y = -1; y <= 1; y++) {
+        for (int x = -1; x <= 1; x++) {
+            struct Vector delta; delta.x = x; delta.y = y;
+            struct Vector temp;
+            vec_add(&nextTile, &delta, &temp);
+            if (temp.x < 0 || temp.x >= self->gameArea->width
+                || temp.y < 0 || temp.y >= self->gameArea->width
+                || !is_in_target(self, &temp)) continue;
+            int newScore = *game_area_get_tile_score(self->gameArea, &temp);
+            vec_add(&nextTile, &selectedMove, &temp);
+            int currScore = *game_area_get_tile_score(self->gameArea, &temp);
+            if (newScore < currScore) selectedMove = delta;
+        }
+    }
+    vec_add(self->player->velocity, &selectedMove, self->player->velocity);
+    return true;
+}
+
+/**
+ * Get the tile from the target with the lowest score. If two tiles have the same score, the closest one from the
+ * player will be chosen
+ * @param self The game instance
+ * @param tile A pointer to a vector the result will be put in
+ */
 void get_lowest_score_target_tile(const struct GameInstance *self, struct Vector *tile) {
     const struct Target *target = self->target;
     tile->x = target->position->x;
@@ -48,6 +105,13 @@ void get_lowest_score_target_tile(const struct GameInstance *self, struct Vector
             if (curr < min) {
                 min = curr;
                 tile->x = currTile.x; tile->y = currTile.y;
+            }
+            else if (curr == min) {
+                if (vec_distance(&currTile, self->player->position)
+                    < vec_distance(tile, self->player->position)) {
+                    min = curr;
+                    tile->x = currTile.x; tile->y = currTile.y;
+                }
             }
         }
     }
@@ -108,7 +172,7 @@ bool can_accelerate_target(struct GameInstance *self, bool x_axis, bool accelera
 
 /**
  * Brakes if necessary (if there is a risk of crossing the map border or missing the target)\n
- * If braking was necessary, true is returned
+ * If braking was necessary, true is returned (no further action is required for this axis)
  * @param self The game instance
  * @param x_axis true if the axis considered is the x axis, false otherwise
  * @return true if braking was necessary (braking was done, no further action is required),
@@ -124,10 +188,15 @@ bool brake_if_necessary(struct GameInstance *self, bool x_axis) {
     return !can_accelerate(self, x_axis, false) || !can_accelerate_target(self, x_axis, false);
 }
 
+/**
+ * Changes the velocity of the player to reach the target
+ * @param self The game instance
+ */
 void change_velocity(struct GameInstance *self) {
     struct Player *player = self->player;
     struct Vector closest;
     get_lowest_score_target_tile(self, &closest);
+    // Calculate the future position of the player using BRAKE_MULT
     struct Vector futurePos;
     struct Vector futureVelocity;
     vec_copy(player->velocity, &futureVelocity);
@@ -135,16 +204,26 @@ void change_velocity(struct GameInstance *self) {
     vec_add(player->position, &futureVelocity, &futurePos);
     struct Vector targetDirection;
     vec_substract(&closest, &futurePos, &targetDirection);
-    if (!brake_if_necessary(self, true)) {
+    // Brake if necessary
+    bool brake_x = brake_if_necessary(self, true);
+    bool brake_y = brake_if_necessary(self, false);
+    // If braking is not necessary, check if the target is about to be reached, and react accordingly
+    bool approaching = (!brake_x && !brake_y) ? approach_target(self) : false;
+    // If not braking, and not approaching target, accelerate towards the target
+    if (!brake_x && !approaching) {
         if (player->velocity->x > targetDirection.x) player->velocity->x--;
         else if (player->velocity->x < targetDirection.x) player->velocity->x++;
     }
-    if (!brake_if_necessary(self, false)) {
+    if (!brake_y && !approaching) {
         if (player->velocity->y > targetDirection.y) player->velocity->y--;
         else if (player->velocity->y < targetDirection.y) player->velocity->y++;
     }
 }
 
+/**
+ * Ticks the game instance, changing the velocity of the player and updating its position
+ * @param self The game instance
+ */
 void game_instance_tick(struct GameInstance *self) {
     change_velocity(self);
     player_tick_movement(self->player);

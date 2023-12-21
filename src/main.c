@@ -1,3 +1,6 @@
+// Théo Pariney
+// Augustin Delpeut
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +15,7 @@
  * Clears the game instance, then returns the exit code
  * @param exit_code The exit code to return
  * @param game_instance The game instance
- * @return 1 if an error occured, 0 otherwise
+ * @return The exit code
  */
 int end_game(int exit_code, struct GameInstance *game_instance) {
     game_instance_destroy(game_instance);
@@ -21,8 +24,8 @@ int end_game(int exit_code, struct GameInstance *game_instance) {
 
 /**
  * Receives a new target and replaces the previous one
- * @param game_instance
- * @param buf
+ * @param game_instance The game instance
+ * @param buf The buffer used to receive the target
  */
 void receive_target(struct GameInstance *game_instance, char *buf) {
     if (game_instance->target != NULL) target_destroy(game_instance->target);

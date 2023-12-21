@@ -43,3 +43,11 @@ void vec_mult(struct Vector *self, double multiplier);
  * @param dest The vector to copy the other into
  */
 void vec_copy(struct Vector *src, struct Vector *dest);
+
+/**
+ * Returns the distance between two vectors
+ * @param vec1 The first vector
+ * @param vec2 The second vector
+ * @return The distance between the two vectors as a float
+ */
+float vec_distance(const struct Vector *vec1, const struct Vector *vec2);

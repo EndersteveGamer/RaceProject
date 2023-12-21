@@ -1,0 +1,1032 @@
+Player: ./cmake-build-debug/RaceProject
+Player: ./race-hi
+Seed: 1662627849
+Max steps: 2236
+-- [1] Player ./cmake-build-debug/RaceProject
+Received new position: 43, 59
+Velocity: -1, -1
+-- [1] Player ./race-hi
+Received new position: 43, 59
+Velocity: -1, -1
+-- [2] Player ./cmake-build-debug/RaceProject
+Received new position: 41, 57
+Velocity: -2, -2
+-- [2] Player ./race-hi
+Received new position: 41, 57
+Velocity: -2, -2
+-- [3] Player ./cmake-build-debug/RaceProject
+Received new position: 38, 54
+Velocity: -3, -3
+-- [3] Player ./race-hi
+Received new position: 38, 54
+Velocity: -3, -3
+-- [4] Player ./cmake-build-debug/RaceProject
+Received new position: 34, 50
+Velocity: -4, -4
+-- [4] Player ./race-hi
+Received new position: 34, 50
+Velocity: -4, -4
+-- [5] Player ./cmake-build-debug/RaceProject
+Received new position: 29, 47
+Velocity: -5, -3
+-- [5] Player ./race-hi
+Received new position: 29, 47
+Velocity: -5, -3
+-- [6] Player ./cmake-build-debug/RaceProject
+Received new position: 23, 45
+Velocity: -6, -2
+-- [6] Player ./race-hi
+Received new position: 23, 45
+Velocity: -6, -2
+-- [7] Player ./cmake-build-debug/RaceProject
+Received new position: 18, 44
+Velocity: -5, -1
+-- [7] Player ./race-hi
+Received new position: 18, 44
+Velocity: -5, -1
+-- [8] Player ./cmake-build-debug/RaceProject
+Received new position: 14, 44
+Velocity: -4, 0
+-- [8] Player ./race-hi
+Received new position: 14, 44
+Velocity: -4, 0
+-- [9] Player ./cmake-build-debug/RaceProject
+Received new position: 11, 45
+Velocity: -3, 1
+-- [9] Player ./race-hi
+Received new position: 11, 45
+Velocity: -3, 1
+-- [10] Player ./cmake-build-debug/RaceProject
+Received new position: 9, 45
+Velocity: -2, 0
+-- [10] Player ./race-hi
+Received new position: 9, 46
+Velocity: -2, 1
+-- [11] Player ./cmake-build-debug/RaceProject
+Received new position: 7, 46
+Velocity: -2, 1
+-- [11] Player ./race-hi
+Received new position: 7, 46
+Velocity: -2, 0
+-- [12] Player ./cmake-build-debug/RaceProject
+Received new position: 6, 46
+Velocity: -1, 0
+-- [12] Player ./race-hi
+Received new position: 6, 45
+Velocity: -1, -1
+-- [13] Player ./cmake-build-debug/RaceProject
+Received new position: 6, 45
+Velocity: 0, -1
+-- [13] Player ./race-hi
+Received new position: 6, 43
+Velocity: 0, -2
+-- [14] Player ./cmake-build-debug/RaceProject
+Received new position: 7, 43
+Velocity: 1, -2
+-- [14] Player ./race-hi
+Received new position: 7, 40
+Velocity: 1, -3
+-- [15] Player ./cmake-build-debug/RaceProject
+Received new position: 9, 40
+Velocity: 2, -3
+-- [15] Player ./race-hi
+Received new position: 9, 36
+Velocity: 2, -4
+-- [16] Player ./cmake-build-debug/RaceProject
+Received new position: 12, 36
+Velocity: 3, -4
+-- [16] Player ./race-hi
+Received new position: 12, 31
+Velocity: 3, -5
+-- [17] Player ./cmake-build-debug/RaceProject
+Received new position: 16, 31
+Velocity: 4, -5
+-- [17] Player ./race-hi
+Received new position: 15, 25
+Velocity: 3, -6
+-- [18] Player ./cmake-build-debug/RaceProject
+Received new position: 19, 25
+Velocity: 3, -6
+-- [18] Player ./race-hi
+Received new position: 18, 20
+Velocity: 3, -5
+-- [19] Player ./cmake-build-debug/RaceProject
+Received new position: 21, 20
+Velocity: 2, -5
+-- [19] Player ./race-hi
+Received new position: 20, 16
+Velocity: 2, -4
+-- [20] Player ./cmake-build-debug/RaceProject
+Received new position: 22, 16
+Velocity: 1, -4
+-- [20] Player ./race-hi
+Received new position: 21, 13
+Velocity: 1, -3
+-- [21] Player ./cmake-build-debug/RaceProject
+Received new position: 22, 13
+Velocity: 0, -3
+-- [21] Player ./race-hi
+Received new position: 21, 10
+Velocity: 0, -3
+-- [22] Player ./cmake-build-debug/RaceProject
+Received new position: 21, 10
+Velocity: -1, -3
+-- [22] Player ./race-hi
+Received new position: 22, 8
+Velocity: 1, -2
+-- [23] Player ./cmake-build-debug/RaceProject
+Received new position: 21, 8
+Velocity: 0, -2
+-- [23] Player ./race-hi
+Received new position: 24, 7
+Velocity: 2, -1
+-- [24] Player ./cmake-build-debug/RaceProject
+Received new position: 22, 7
+Velocity: 1, -1
+-- [24] Player ./race-hi
+Received new position: 27, 7
+Velocity: 3, 0
+-- [25] Player ./cmake-build-debug/RaceProject
+Received new position: 24, 7
+Velocity: 2, 0
+-- [25] Player ./race-hi
+Received new position: 31, 8
+Velocity: 4, 1
+-- [26] Player ./cmake-build-debug/RaceProject
+Received new position: 27, 8
+Velocity: 3, 1
+-- [26] Player ./race-hi
+Received new position: 36, 10
+Velocity: 5, 2
+-- [27] Player ./cmake-build-debug/RaceProject
+Received new position: 31, 10
+Velocity: 4, 2
+-- [27] Player ./race-hi
+Received new position: 42, 13
+Velocity: 6, 3
+-- [28] Player ./cmake-build-debug/RaceProject
+Received new position: 36, 13
+Velocity: 5, 3
+-- [28] Player ./race-hi
+Received new position: 48, 17
+Velocity: 6, 4
+-- [29] Player ./cmake-build-debug/RaceProject
+Received new position: 42, 17
+Velocity: 6, 4
+-- [29] Player ./race-hi
+Received new position: 53, 22
+Velocity: 5, 5
+-- [30] Player ./cmake-build-debug/RaceProject
+Received new position: 47, 22
+Velocity: 5, 5
+-- [30] Player ./race-hi
+Received new position: 57, 28
+Velocity: 4, 6
+-- [31] Player ./cmake-build-debug/RaceProject
+Received new position: 53, 28
+Velocity: 6, 6
+-- [31] Player ./race-hi
+Received new position: 60, 33
+Velocity: 3, 5
+-- [32] Player ./cmake-build-debug/RaceProject
+Received new position: 58, 33
+Velocity: 5, 5
+-- [32] Player ./race-hi
+Received new position: 63, 37
+Velocity: 3, 4
+-- [33] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 37
+Velocity: 4, 4
+-- [33] Player ./race-hi
+Received new position: 65, 40
+Velocity: 2, 3
+-- [34] Player ./cmake-build-debug/RaceProject
+Received new position: 65, 40
+Velocity: 3, 3
+-- [34] Player ./race-hi
+Received new position: 66, 43
+Velocity: 1, 3
+-- [35] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 42
+Velocity: 2, 2
+-- [35] Player ./race-hi
+Received new position: 67, 46
+Velocity: 1, 3
+-- [36] Player ./cmake-build-debug/RaceProject
+Received new position: 68, 44
+Velocity: 1, 2
+-- [36] Player ./race-hi
+Received new position: 69, 48
+Velocity: 2, 2
+-- [37] Player ./cmake-build-debug/RaceProject
+Received new position: 68, 45
+Velocity: 0, 1
+-- [37] Player ./race-hi
+Received new position: 72, 49
+Velocity: 3, 1
+-- [38] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 45
+Velocity: -1, 0
+-- [38] Player ./race-hi
+Received new position: 75, 49
+Velocity: 3, 0
+-- [39] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 46
+Velocity: 0, 1
+-- [39] Player ./race-hi
+Received new position: 78, 48
+Velocity: 3, -1
+-- [40] Player ./cmake-build-debug/RaceProject
+Received new position: 68, 46
+Velocity: 1, 0
+-- [40] Player ./race-hi
+Received new position: 80, 46
+Velocity: 2, -2
+-- [41] Player ./cmake-build-debug/RaceProject
+Received new position: 70, 45
+Velocity: 2, -1
+-- [41] Player ./race-hi
+Received new position: 81, 43
+Velocity: 1, -3
+-- [42] Player ./cmake-build-debug/RaceProject
+Received new position: 73, 43
+Velocity: 3, -2
+-- [42] Player ./race-hi
+Received new position: 82, 39
+Velocity: 1, -4
+-- [43] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 40
+Velocity: 4, -3
+-- [43] Player ./race-hi
+Received new position: 83, 34
+Velocity: 1, -5
+-- [44] Player ./cmake-build-debug/RaceProject
+Received new position: 80, 36
+Velocity: 3, -4
+-- [44] Player ./race-hi
+Received new position: 83, 28
+Velocity: 0, -6
+-- [45] Player ./cmake-build-debug/RaceProject
+Received new position: 82, 31
+Velocity: 2, -5
+-- [45] Player ./race-hi
+Received new position: 83, 23
+Velocity: 0, -5
+-- [46] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 25
+Velocity: 1, -6
+-- [46] Player ./race-hi
+Received new position: 83, 19
+Velocity: 0, -4
+-- [47] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 20
+Velocity: 0, -5
+-- [47] Player ./race-hi
+Received new position: 83, 16
+Velocity: 0, -3
+-- [48] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 16
+Velocity: 0, -4
+-- [48] Player ./race-hi
+Received new position: 83, 13
+Velocity: 0, -3
+-- [49] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 13
+Velocity: 0, -3
+-- [49] Player ./race-hi
+Received new position: 83, 10
+Velocity: 0, -3
+-- [50] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 11
+Velocity: 0, -2
+-- [50] Player ./race-hi
+Received new position: 82, 8
+Velocity: -1, -2
+-- [51] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 10
+Velocity: 0, -1
+-- [51] Player ./race-hi
+Received new position: 80, 7
+Velocity: -2, -1
+-- [52] Player ./cmake-build-debug/RaceProject
+Received new position: 82, 10
+Velocity: -1, 0
+-- [52] Player ./race-hi
+Received new position: 79, 7
+Velocity: -1, 0
+-- [53] Player ./cmake-build-debug/RaceProject
+Received new position: 80, 11
+Velocity: -2, 1
+-- [53] Player ./race-hi
+Received new position: 78, 8
+Velocity: -1, 1
+-- [54] Player ./cmake-build-debug/RaceProject
+Received new position: 79, 13
+Velocity: -1, 2
+-- [54] Player ./race-hi
+Received new position: 77, 10
+Velocity: -1, 2
+-- [55] Player ./cmake-build-debug/RaceProject
+Received new position: 78, 16
+Velocity: -1, 3
+-- [55] Player ./race-hi
+Received new position: 77, 13
+Velocity: 0, 3
+-- [56] Player ./cmake-build-debug/RaceProject
+Received new position: 78, 20
+Velocity: 0, 4
+-- [56] Player ./race-hi
+Received new position: 77, 17
+Velocity: 0, 4
+-- [57] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 25
+Velocity: -1, 5
+-- [57] Player ./race-hi
+Received new position: 77, 22
+Velocity: 0, 5
+-- [58] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 29
+Velocity: 0, 4
+-- [58] Player ./race-hi
+Received new position: 77, 27
+Velocity: 0, 5
+-- [59] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 32
+Velocity: 0, 3
+-- [59] Player ./race-hi
+Received new position: 77, 32
+Velocity: 0, 5
+-- [60] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 34
+Velocity: 0, 2
+-- [60] Player ./race-hi
+Received new position: 77, 36
+Velocity: 0, 4
+-- [61] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 37
+Velocity: 0, 3
+-- [61] Player ./race-hi
+Received new position: 77, 41
+Velocity: 0, 5
+-- [62] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 39
+Velocity: 0, 2
+-- [62] Player ./race-hi
+Received new position: 76, 47
+Velocity: -1, 6
+-- [63] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 41
+Velocity: 0, 2
+-- [63] Player ./race-hi
+Received new position: 74, 54
+Velocity: -2, 7
+-- [64] Player ./cmake-build-debug/RaceProject
+Received new position: 76, 44
+Velocity: -1, 3
+-- [64] Player ./race-hi
+Received new position: 71, 60
+Velocity: -3, 6
+-- [65] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 48
+Velocity: -2, 4
+-- [65] Player ./race-hi
+Received new position: 67, 65
+Velocity: -4, 5
+-- [66] Player ./cmake-build-debug/RaceProject
+Received new position: 71, 53
+Velocity: -3, 5
+-- [66] Player ./race-hi
+Received new position: 62, 69
+Velocity: -5, 4
+-- [67] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 59
+Velocity: -4, 6
+-- [67] Player ./race-hi
+Received new position: 56, 72
+Velocity: -6, 3
+-- [68] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 64
+Velocity: -5, 5
+-- [68] Player ./race-hi
+Received new position: 49, 74
+Velocity: -7, 2
+-- [69] Player ./cmake-build-debug/RaceProject
+Received new position: 56, 70
+Velocity: -6, 6
+-- [69] Player ./race-hi
+Received new position: 41, 75
+Velocity: -8, 1
+-- [70] Player ./cmake-build-debug/RaceProject
+Received new position: 49, 75
+Velocity: -7, 5
+-- [70] Player ./race-hi
+Received new position: 34, 76
+Velocity: -7, 1
+-- [71] Player ./cmake-build-debug/RaceProject
+Received new position: 41, 79
+Velocity: -8, 4
+-- [71] Player ./race-hi
+Received new position: 27, 77
+Velocity: -7, 1
+-- [72] Player ./cmake-build-debug/RaceProject
+Received new position: 34, 82
+Velocity: -7, 3
+-- [72] Player ./race-hi
+Received new position: 21, 78
+Velocity: -6, 1
+-- [73] Player ./cmake-build-debug/RaceProject
+Received new position: 28, 84
+Velocity: -6, 2
+-- [73] Player ./race-hi
+Received new position: 16, 79
+Velocity: -5, 1
+-- [74] Player ./cmake-build-debug/RaceProject
+Received new position: 23, 85
+Velocity: -5, 1
+-- [74] Player ./race-hi
+Received new position: 12, 79
+Velocity: -4, 0
+-- [75] Player ./cmake-build-debug/RaceProject
+Received new position: 19, 85
+Velocity: -4, 0
+-- [75] Player ./race-hi
+Received new position: 9, 79
+Velocity: -3, 0
+-- [76] Player ./cmake-build-debug/RaceProject
+Received new position: 14, 84
+Velocity: -5, -1
+-- [76] Player ./race-hi
+Received new position: 7, 79
+Velocity: -2, 0
+-- [77] Player ./cmake-build-debug/RaceProject
+Received new position: 10, 82
+Velocity: -4, -2
+-- [77] Player ./race-hi
+Received new position: 6, 78
+Velocity: -1, -1
+-- [78] Player ./cmake-build-debug/RaceProject
+Received new position: 7, 81
+Velocity: -3, -1
+-- [78] Player ./race-hi
+Received new position: 6, 78
+Velocity: 0, 0
+-- [79] Player ./cmake-build-debug/RaceProject
+Received new position: 5, 80
+Velocity: -2, -1
+-- [79] Player ./race-hi
+Received new position: 7, 78
+Velocity: 1, 0
+-- [80] Player ./cmake-build-debug/RaceProject
+Received new position: 4, 80
+Velocity: -1, 0
+-- [80] Player ./race-hi
+Received new position: 9, 78
+Velocity: 2, 0
+-- [81] Player ./cmake-build-debug/RaceProject
+Received new position: 4, 79
+Velocity: 0, -1
+-- [81] Player ./race-hi
+Received new position: 12, 78
+Velocity: 3, 0
+-- [82] Player ./cmake-build-debug/RaceProject
+Received new position: 5, 79
+Velocity: 1, 0
+-- [82] Player ./race-hi
+Received new position: 16, 78
+Velocity: 4, 0
+-- [83] Player ./cmake-build-debug/RaceProject
+Received new position: 6, 79
+Velocity: 1, 0
+-- [83] Player ./race-hi
+Received new position: 21, 78
+Velocity: 5, 0
+-- [84] Player ./cmake-build-debug/RaceProject
+Received new position: 7, 79
+Velocity: 1, 0
+-- [84] Player ./race-hi
+Received new position: 27, 78
+Velocity: 6, 0
+-- [85] Player ./cmake-build-debug/RaceProject
+Received new position: 9, 78
+Velocity: 2, -1
+-- [85] Player ./race-hi
+Received new position: 34, 78
+Velocity: 7, 0
+-- [86] Player ./cmake-build-debug/RaceProject
+Received new position: 12, 78
+Velocity: 3, 0
+-- [86] Player ./race-hi
+Received new position: 42, 78
+Velocity: 8, 0
+-- [87] Player ./cmake-build-debug/RaceProject
+Received new position: 16, 78
+Velocity: 4, 0
+-- [87] Player ./race-hi
+Received new position: 49, 78
+Velocity: 7, 0
+-- [88] Player ./cmake-build-debug/RaceProject
+Received new position: 21, 78
+Velocity: 5, 0
+-- [88] Player ./race-hi
+Received new position: 55, 78
+Velocity: 6, 0
+-- [89] Player ./cmake-build-debug/RaceProject
+Received new position: 27, 78
+Velocity: 6, 0
+-- [89] Player ./race-hi
+Received new position: 61, 78
+Velocity: 6, 0
+-- [90] Player ./cmake-build-debug/RaceProject
+Received new position: 34, 78
+Velocity: 7, 0
+-- [90] Player ./race-hi
+Received new position: 66, 78
+Velocity: 5, 0
+-- [91] Player ./cmake-build-debug/RaceProject
+Received new position: 42, 78
+Velocity: 8, 0
+-- [91] Player ./race-hi
+Received new position: 70, 78
+Velocity: 4, 0
+-- [92] Player ./cmake-build-debug/RaceProject
+Received new position: 49, 78
+Velocity: 7, 0
+-- [92] Player ./race-hi
+Received new position: 73, 78
+Velocity: 3, 0
+-- [93] Player ./cmake-build-debug/RaceProject
+Received new position: 55, 78
+Velocity: 6, 0
+-- [93] Player ./race-hi
+Received new position: 76, 78
+Velocity: 3, 0
+-- [94] Player ./cmake-build-debug/RaceProject
+Received new position: 60, 78
+Velocity: 5, 0
+-- [94] Player ./race-hi
+Received new position: 78, 77
+Velocity: 2, -1
+-- [95] Player ./cmake-build-debug/RaceProject
+Received new position: 64, 78
+Velocity: 4, 0
+-- [95] Player ./race-hi
+Received new position: 79, 75
+Velocity: 1, -2
+-- [96] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 78
+Velocity: 3, 0
+-- [96] Player ./race-hi
+Received new position: 79, 72
+Velocity: 0, -3
+-- [97] Player ./cmake-build-debug/RaceProject
+Received new position: 69, 78
+Velocity: 2, 0
+-- [97] Player ./race-hi
+Received new position: 78, 69
+Velocity: -1, -3
+-- [98] Player ./cmake-build-debug/RaceProject
+Received new position: 72, 78
+Velocity: 3, 0
+-- [98] Player ./race-hi
+Received new position: 76, 67
+Velocity: -2, -2
+-- [99] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 78
+Velocity: 2, 0
+-- [99] Player ./race-hi
+Received new position: 73, 65
+Velocity: -3, -2
+-- [100] Player ./cmake-build-debug/RaceProject
+Received new position: 76, 78
+Velocity: 2, 0
+-- [100] Player ./race-hi
+Received new position: 69, 64
+Velocity: -4, -1
+-- [101] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 77
+Velocity: 1, -1
+-- [101] Player ./race-hi
+Received new position: 64, 63
+Velocity: -5, -1
+-- [102] Player ./cmake-build-debug/RaceProject
+Received new position: 77, 75
+Velocity: 0, -2
+-- [102] Player ./race-hi
+Received new position: 58, 63
+Velocity: -6, 0
+-- [103] Player ./cmake-build-debug/RaceProject
+Received new position: 76, 72
+Velocity: -1, -3
+-- [103] Player ./race-hi
+Received new position: 51, 63
+Velocity: -7, 0
+-- [104] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 68
+Velocity: -2, -4
+-- [104] Player ./race-hi
+Received new position: 44, 63
+Velocity: -7, 0
+-- [105] Player ./cmake-build-debug/RaceProject
+Received new position: 71, 65
+Velocity: -3, -3
+-- [105] Player ./race-hi
+Received new position: 38, 63
+Velocity: -6, 0
+-- [106] Player ./cmake-build-debug/RaceProject
+Received new position: 67, 63
+Velocity: -4, -2
+-- [106] Player ./race-hi
+Received new position: 33, 63
+Velocity: -5, 0
+-- [107] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 62
+Velocity: -5, -1
+-- [107] Player ./race-hi
+Received new position: 29, 63
+Velocity: -4, 0
+-- [108] Player ./cmake-build-debug/RaceProject
+Received new position: 56, 62
+Velocity: -6, 0
+-- [108] Player ./race-hi
+Received new position: 26, 63
+Velocity: -3, 0
+-- [109] Player ./cmake-build-debug/RaceProject
+Received new position: 49, 63
+Velocity: -7, 1
+-- [109] Player ./race-hi
+Received new position: 23, 63
+Velocity: -3, 0
+-- [110] Player ./cmake-build-debug/RaceProject
+Received new position: 43, 63
+Velocity: -6, 0
+-- [110] Player ./race-hi
+Received new position: 21, 62
+Velocity: -2, -1
+-- [111] Player ./cmake-build-debug/RaceProject
+Received new position: 38, 63
+Velocity: -5, 0
+-- [111] Player ./race-hi
+Received new position: 20, 60
+Velocity: -1, -2
+-- [112] Player ./cmake-build-debug/RaceProject
+Received new position: 34, 63
+Velocity: -4, 0
+-- [112] Player ./race-hi
+Received new position: 20, 57
+Velocity: 0, -3
+-- [113] Player ./cmake-build-debug/RaceProject
+Received new position: 31, 63
+Velocity: -3, 0
+-- [113] Player ./race-hi
+Received new position: 21, 53
+Velocity: 1, -4
+-- [114] Player ./cmake-build-debug/RaceProject
+Received new position: 29, 63
+Velocity: -2, 0
+-- [114] Player ./race-hi
+Received new position: 23, 48
+Velocity: 2, -5
+-- [115] Player ./cmake-build-debug/RaceProject
+Received new position: 26, 63
+Velocity: -3, 0
+-- [115] Player ./race-hi
+Received new position: 26, 42
+Velocity: 3, -6
+-- [116] Player ./cmake-build-debug/RaceProject
+Received new position: 24, 63
+Velocity: -2, 0
+-- [116] Player ./race-hi
+Received new position: 30, 35
+Velocity: 4, -7
+-- [117] Player ./cmake-build-debug/RaceProject
+Received new position: 23, 63
+Velocity: -1, 0
+-- [117] Player ./race-hi
+Received new position: 35, 29
+Velocity: 5, -6
+-- [118] Player ./cmake-build-debug/RaceProject
+Received new position: 23, 62
+Velocity: 0, -1
+-- [118] Player ./race-hi
+Received new position: 40, 24
+Velocity: 5, -5
+-- [119] Player ./cmake-build-debug/RaceProject
+Received new position: 24, 60
+Velocity: 1, -2
+-- [119] Player ./race-hi
+Received new position: 44, 20
+Velocity: 4, -4
+-- [120] Player ./cmake-build-debug/RaceProject
+Received new position: 26, 57
+Velocity: 2, -3
+-- [120] Player ./race-hi
+Received new position: 47, 17
+Velocity: 3, -3
+-- [121] Player ./cmake-build-debug/RaceProject
+Received new position: 29, 53
+Velocity: 3, -4
+-- [121] Player ./race-hi
+Received new position: 49, 14
+Velocity: 2, -3
+-- [122] Player ./cmake-build-debug/RaceProject
+Received new position: 33, 48
+Velocity: 4, -5
+-- [122] Player ./race-hi
+Received new position: 50, 11
+Velocity: 1, -3
+-- [123] Player ./cmake-build-debug/RaceProject
+Received new position: 38, 42
+Velocity: 5, -6
+-- [123] Player ./race-hi
+Received new position: 52, 9
+Velocity: 2, -2
+-- [124] Player ./cmake-build-debug/RaceProject
+Received new position: 42, 35
+Velocity: 4, -7
+-- [124] Player ./race-hi
+Received new position: 55, 8
+Velocity: 3, -1
+-- [125] Player ./cmake-build-debug/RaceProject
+Received new position: 45, 29
+Velocity: 3, -6
+-- [125] Player ./race-hi
+Received new position: 58, 8
+Velocity: 3, 0
+-- [126] Player ./cmake-build-debug/RaceProject
+Received new position: 47, 24
+Velocity: 2, -5
+-- [126] Player ./race-hi
+Received new position: 60, 9
+Velocity: 2, 1
+-- [127] Player ./cmake-build-debug/RaceProject
+Received new position: 48, 20
+Velocity: 1, -4
+-- [127] Player ./race-hi
+Received new position: 61, 11
+Velocity: 1, 2
+-- [128] Player ./cmake-build-debug/RaceProject
+Received new position: 49, 17
+Velocity: 1, -3
+-- [128] Player ./race-hi
+Received new position: 62, 14
+Velocity: 1, 3
+-- [129] Player ./cmake-build-debug/RaceProject
+Received new position: 49, 15
+Velocity: 0, -2
+-- [129] Player ./race-hi
+Received new position: 62, 18
+Velocity: 0, 4
+-- [130] Player ./cmake-build-debug/RaceProject
+Received new position: 50, 13
+Velocity: 1, -2
+-- [130] Player ./race-hi
+Received new position: 62, 23
+Velocity: 0, 5
+-- [131] Player ./cmake-build-debug/RaceProject
+Received new position: 50, 11
+Velocity: 0, -2
+-- [131] Player ./race-hi
+Received new position: 62, 28
+Velocity: 0, 5
+-- [132] Player ./cmake-build-debug/RaceProject
+Received new position: 51, 10
+Velocity: 1, -1
+-- [132] Player ./race-hi
+Received new position: 62, 32
+Velocity: 0, 4
+-- [133] Player ./cmake-build-debug/RaceProject
+Received new position: 53, 10
+Velocity: 2, 0
+-- [133] Player ./race-hi
+Received new position: 62, 36
+Velocity: 0, 4
+-- [134] Player ./cmake-build-debug/RaceProject
+Received new position: 56, 11
+Velocity: 3, 1
+-- [134] Player ./race-hi
+Received new position: 61, 39
+Velocity: -1, 3
+-- [135] Player ./cmake-build-debug/RaceProject
+Received new position: 58, 13
+Velocity: 2, 2
+-- [135] Player ./race-hi
+Received new position: 59, 41
+Velocity: -2, 2
+-- [136] Player ./cmake-build-debug/RaceProject
+Received new position: 60, 16
+Velocity: 2, 3
+-- [136] Player ./race-hi
+Received new position: 56, 42
+Velocity: -3, 1
+-- [137] Player ./cmake-build-debug/RaceProject
+Received new position: 61, 20
+Velocity: 1, 4
+-- [137] Player ./race-hi
+Received new position: 52, 42
+Velocity: -4, 0
+-- [138] Player ./cmake-build-debug/RaceProject
+Received new position: 61, 25
+Velocity: 0, 5
+-- [138] Player ./race-hi
+Received new position: 47, 41
+Velocity: -5, -1
+-- [139] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 29
+Velocity: 1, 4
+-- [139] Player ./race-hi
+Received new position: 43, 39
+Velocity: -4, -2
+-- [140] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 32
+Velocity: 0, 3
+-- [140] Player ./race-hi
+Received new position: 39, 38
+Velocity: -4, -1
+-- [141] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 34
+Velocity: 0, 2
+-- [141] Player ./race-hi
+Received new position: 36, 38
+Velocity: -3, 0
+-- [142] Player ./cmake-build-debug/RaceProject
+Received new position: 62, 36
+Velocity: 0, 2
+-- [142] Player ./race-hi
+Received new position: 34, 39
+Velocity: -2, 1
+-- [143] Player ./cmake-build-debug/RaceProject
+Received new position: 61, 37
+Velocity: -1, 1
+-- [143] Player ./race-hi
+Received new position: 33, 41
+Velocity: -1, 2
+-- [144] Player ./cmake-build-debug/RaceProject
+Received new position: 59, 38
+Velocity: -2, 1
+-- [144] Player ./race-hi
+Received new position: 33, 44
+Velocity: 0, 3
+-- [145] Player ./cmake-build-debug/RaceProject
+Received new position: 56, 38
+Velocity: -3, 0
+-- [145] Player ./race-hi
+Received new position: 34, 47
+Velocity: 1, 3
+-- [146] Player ./cmake-build-debug/RaceProject
+Received new position: 52, 39
+Velocity: -4, 1
+-- [146] Player ./race-hi
+Received new position: 36, 50
+Velocity: 2, 3
+-- [147] Player ./cmake-build-debug/RaceProject
+Received new position: 47, 39
+Velocity: -5, 0
+-- [147] Player ./race-hi
+Received new position: 39, 52
+Velocity: 3, 2
+-- [148] Player ./cmake-build-debug/RaceProject
+Received new position: 43, 39
+Velocity: -4, 0
+-- [148] Player ./race-hi
+Received new position: 43, 53
+Velocity: 4, 1
+-- [149] Player ./cmake-build-debug/RaceProject
+Received new position: 40, 39
+Velocity: -3, 0
+-- [149] Player ./race-hi
+Received new position: 48, 53
+Velocity: 5, 0
+-- [150] Player ./cmake-build-debug/RaceProject
+Received new position: 38, 39
+Velocity: -2, 0
+-- [150] Player ./race-hi
+Received new position: 54, 53
+Velocity: 6, 0
+-- [151] Player ./cmake-build-debug/RaceProject
+Received new position: 37, 39
+Velocity: -1, 0
+-- [151] Player ./race-hi
+Received new position: 61, 53
+Velocity: 7, 0
+-- [152] Player ./cmake-build-debug/RaceProject
+Received new position: 37, 40
+Velocity: 0, 1
+-- [152] Player ./race-hi
+Received new position: 67, 53
+Velocity: 6, 0
+-- [153] Player ./cmake-build-debug/RaceProject
+Received new position: 38, 42
+Velocity: 1, 2
+-- [153] Player ./race-hi
+Received new position: 72, 53
+Velocity: 5, 0
+-- [154] Player ./cmake-build-debug/RaceProject
+Received new position: 40, 45
+Velocity: 2, 3
+-- [154] Player ./race-hi
+Received new position: 76, 53
+Velocity: 4, 0
+-- [155] Player ./cmake-build-debug/RaceProject
+Received new position: 43, 47
+Velocity: 3, 2
+-- [155] Player ./race-hi
+Received new position: 79, 53
+Velocity: 3, 0
+-- [156] Player ./cmake-build-debug/RaceProject
+Received new position: 47, 50
+Velocity: 4, 3
+-- [156] Player ./race-hi
+Received new position: 81, 52
+Velocity: 2, -1
+-- [157] Player ./cmake-build-debug/RaceProject
+Received new position: 52, 52
+Velocity: 5, 2
+-- [157] Player ./race-hi
+Received new position: 82, 50
+Velocity: 1, -2
+-- [158] Player ./cmake-build-debug/RaceProject
+Received new position: 58, 53
+Velocity: 6, 1
+-- [158] Player ./race-hi
+Received new position: 82, 47
+Velocity: 0, -3
+-- [159] Player ./cmake-build-debug/RaceProject
+Received new position: 63, 53
+Velocity: 5, 0
+-- [159] Player ./race-hi
+Received new position: 81, 43
+Velocity: -1, -4
+-- [160] Player ./cmake-build-debug/RaceProject
+Received new position: 69, 53
+Velocity: 6, 0
+-- [160] Player ./race-hi
+Received new position: 79, 38
+Velocity: -2, -5
+-- [161] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 53
+Velocity: 5, 0
+-- [161] Player ./race-hi
+Received new position: 77, 32
+Velocity: -2, -6
+-- [162] Player ./cmake-build-debug/RaceProject
+Received new position: 78, 53
+Velocity: 4, 0
+-- [162] Player ./race-hi
+Received new position: 76, 26
+Velocity: -1, -6
+-- [163] Player ./cmake-build-debug/RaceProject
+Received new position: 81, 52
+Velocity: 3, -1
+-- [163] Player ./race-hi
+Received new position: 75, 21
+Velocity: -1, -5
+-- [164] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 50
+Velocity: 2, -2
+-- [164] Player ./race-hi
+Received new position: 74, 17
+Velocity: -1, -4
+-- [165] Player ./cmake-build-debug/RaceProject
+Received new position: 84, 47
+Velocity: 1, -3
+-- [165] Player ./race-hi
+Received new position: 74, 14
+Velocity: 0, -3
+-- [166] Player ./cmake-build-debug/RaceProject
+Received new position: 84, 43
+Velocity: 0, -4
+-- [166] Player ./race-hi
+Received new position: 74, 10
+Velocity: 0, -4
+-- [167] Player ./cmake-build-debug/RaceProject
+Received new position: 83, 38
+Velocity: -1, -5
+-- [168] Player ./cmake-build-debug/RaceProject
+Received new position: 81, 32
+Velocity: -2, -6
+-- [169] Player ./cmake-build-debug/RaceProject
+Received new position: 78, 27
+Velocity: -3, -5
+-- [170] Player ./cmake-build-debug/RaceProject
+Received new position: 76, 23
+Velocity: -2, -4
+-- [171] Player ./cmake-build-debug/RaceProject
+Received new position: 75, 20
+Velocity: -1, -3
+-- [172] Player ./cmake-build-debug/RaceProject
+Received new position: 75, 16
+Velocity: 0, -4
+-- [173] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 13
+Velocity: -1, -3
+-- [174] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 11
+Velocity: 0, -2
+-- [175] Player ./cmake-build-debug/RaceProject
+Received new position: 74, 10
+Velocity: 0, -1
+#######################
+Seed: 1662627849
+Results:
+(1) ./cmake-build-debug/RaceProject: 142 (moves: 175, score: -33)
+(1) ./race-hi: 142 (moves: 166, score: -24)
